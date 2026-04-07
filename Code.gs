@@ -10,7 +10,7 @@
 // ========== CONFIGURATION ==========
 const SHEET_ID = '1IRiYvsV1gS0ZE022hBd1TRPGOVP61DBapXxNQe9e0Fc'; // GANTI dengan ID Google Sheet
 const MIDTRANS_SERVER_KEY = 'YOUR_MIDTRANS_SERVER_KEY'; // GANTI dengan Midtrans Server Key (Sandbox)
-const ALLOWED_ORIGINS = ['https://dawinsight.com', 'http://localhost:3000'];
+const ALLOWED_ORIGINS = ['https://dawinsight.my.id', 'http://localhost:3000'];
 
 // ========== MAIN HANDLER ==========
 function doPost(e) {

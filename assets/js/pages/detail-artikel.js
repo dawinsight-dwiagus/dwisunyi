@@ -38,9 +38,9 @@ function createShareButtons() {
     title: getMetaContent('og:title') || document.querySelector('h1')?.textContent || document.title,
     description: getMetaContent('og:description') || getMetaContent('description', 'name') || '',
     image: getMetaContent('og:image') || '',
-    author: getMetaContent('article:author') || 'dawinsight.com',
+    author: getMetaContent('article:author') || 'dawinsight.my.id',
     publishDate: getMetaContent('article:published_time') || '',
-    siteName: getMetaContent('og:site_name') || 'dawinsight.com'
+    siteName: getMetaContent('og:site_name') || 'dawinsight.my.id'
   };
 
   // Share platforms configuration dengan metadata lengkap

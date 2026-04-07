@@ -23,6 +23,7 @@ export const menuData = [
       { href: "/artikel/", text: "Semua Artikel", icon: "fas fa-pen-fancy", isParent: true },
       { href: "/artikel/islami/", text: "Islami", icon: "fas fa-mosque" },
       { href: "/artikel/sosial/", text: "Sosial", icon: "fas fa-people-arrows" },
+      { href: "/artikel/politik/", text: "Politik", icon: "fas fa-landmark" },
       { href: "/artikel/pemikiran/", text: "Pemikiran", icon: "fas fa-lightbulb" }
     ]
   },
@@ -61,9 +62,11 @@ export const quickLinksData = [
 // DATA LAYANAN UTAMA FOOTER (untuk kompatibilitas)
 // =========================
 export const mainServicesData = [
-  { href: "/artikel/", text: "Artikel" },
-  { href: "/ebook/", text: "E-Book" },
-  { href: "/portofolio/", text: "Portofolio" }
+  { href: "/portofolio/karya-tulis/", text: "Karya Tulis" },
+  { href: "/artikel/islami/", text: "Agama" },
+  { href: "/artikel/sosial/", text: "Sosial" },
+  { href: "/artikel/politik/", text: "Politik" },
+  { href: "/artikel/pemikiran/", text: "Pemikiran" }
 ];
 
 

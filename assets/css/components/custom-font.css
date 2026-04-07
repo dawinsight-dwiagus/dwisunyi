@@ -1,10 +1,10 @@
 /* ===============================
-   COMPONENT - DAWINSIGHT.COM FONT
+   COMPONENT - dawinsight.my.id FONT
 =============================== */
 .dawinsight-com-font {
   font-family: var(--font-utama);
   font-weight: 700;
-  text-transform: UPPERCASE;
+  text-transform: lowercase;
   display: inline-block;
   position: relative;
   background: linear-gradient(90deg,

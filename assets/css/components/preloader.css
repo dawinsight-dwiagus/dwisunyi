@@ -33,154 +33,76 @@
 }
 
 .logo-wrap {
-  transform: translateX(14px);
-  animation: logo-shift-left 0.8s cubic-bezier(0.25, 0.8, 0.25, 1) forwards;
-  animation-delay: 0.25s;
+  position: relative;
 }
 
-/* Lock + Spin dengan easing disesuaikan untuk kelancaran */
+/* Logo spin with premium glow effect */
 .logo-spin {
   position: relative;
-  width: 76px;
-  height: 76px;
-  animation:
-    s-lock-compress 0.1s ease-out forwards,
-    logo-spin-once 1s cubic-bezier(0.4, 1.2, 0.6, 1) forwards;
-  animation-delay:
-    0.82s,
-    0.92s;
-}
-
-.loader-top,
-.loader-bottom {
-  position: absolute;
-  width: 76px;
-  height: auto;
-  filter: none;
-}
-
-/* Logo 1 masuk dari kiri */
-.loader-top {
-  z-index: 2;
-  animation: s-enter-left 0.9s cubic-bezier(0.25, 0.9, 0.25, 1) forwards;
-}
-
-/* Logo 2 masuk dari kanan */
-.loader-bottom {
-  z-index: 1;
-  animation: s-enter-right 0.9s cubic-bezier(0.25, 0.9, 0.25, 1) forwards;
-}
-
-.brand-text {
-  font-family: var(--font-utama);
-  font-size: 32px;
-  font-weight: 600;
-  letter-spacing: -0.018em;
+  width: 120px;
+  height: 120px;
   display: flex;
-  overflow: hidden;
+  align-items: center;
+  justify-content: center;
 }
 
-.brand-name {
-  color: var(--bg-white);
-  opacity: 0;
-  transform: translateX(-12px);
-  animation: brand-in 0.65s cubic-bezier(0.25, 0.9, 0.25, 1) forwards;
-  animation-delay: 0.32s;
+/* Animated glow ring */
+.logo-spin::before {
+  content: '';
+  position: absolute;
+  inset: -15px;
+  border: 2px solid transparent;
+  border-top-color: rgba(59, 130, 246, 0.6);
+  border-right-color: rgba(59, 130, 246, 0.3);
+  border-bottom-color: transparent;
+  border-left-color: rgba(59, 130, 246, 0.3);
+  border-radius: 50%;
+  animation: spin-ring 2s linear infinite;
+  pointer-events: none;
+  z-index: 2;
 }
 
-.brand-dot {
-  color: var(--primary-blue);
-  opacity: 0;
-  transform: translateX(-8px);
-  margin-left: 0;
-  animation:
-    dot-in 0.4s ease-out forwards,
-    dot-push 0.4s ease-out forwards;
-  animation-delay:
-    0.62s,
-    0.62s;
+/* Soft outer glow */
+.logo-spin::after {
+  content: '';
+  position: absolute;
+  inset: -20px;
+  background: radial-gradient(circle, rgba(59, 130, 246, 0.08) 0%, transparent 70%);
+  border-radius: 50%;
+  animation: glow 2.5s ease-in-out infinite;
+  pointer-events: none;
+  z-index: 1;
 }
 
-/* Keyframes Baru untuk Masuk dari Kiri-Kanan */
-@keyframes s-enter-left {
-  0% {
-    opacity: 0;
-    transform: translateX(-64px);
-  }
-
-  65% {
-    opacity: 1;
-    transform: translateX(6px);
-  }
-
-  100% {
-    transform: translateX(0);
-  }
+.logo-spin img {
+  position: relative;
+  z-index: 3;
 }
 
-@keyframes s-enter-right {
-  0% {
-    opacity: 0;
-    transform: translateX(64px);
-  }
 
-  65% {
-    opacity: 1;
-    transform: translateX(-6px);
-  }
 
-  100% {
-    transform: translateX(0);
-  }
-}
 
-/* Keyframes Lain yang Tetap Berlaku */
-@keyframes logo-shift-left {
-  to {
-    transform: translateX(0);
-  }
-}
-
-@keyframes s-lock-compress {
-  to {
-    transform: scaleY(0.985);
-  }
-}
-
-@keyframes logo-spin-once {
-  0% {
+/* Rotating glow ring */
+@keyframes spin-ring {
+  from {
     transform: rotate(0deg);
   }
-
-  55% {
-    transform: rotate(390deg);
-  }
-
-  75% {
-    transform: rotate(350deg);
-  }
-
-  100% {
+  to {
     transform: rotate(360deg);
   }
 }
 
-@keyframes brand-in {
-  to {
-    opacity: 1;
-    transform: translateX(0);
+/* Breathing glow effect */
+@keyframes glow {
+  0%, 100% {
+    opacity: 0.4;
+    transform: scale(1);
+  }
+  
+  50% {
+    opacity: 0.8;
+    transform: scale(1.05);
   }
 }
 
-@keyframes dot-in {
-  to {
-    opacity: 1;
-    transform: translateX(0);
-  }
-}
 
-@keyframes dot-push {
-  to {
-    margin-left: 2px;
-  }
-}

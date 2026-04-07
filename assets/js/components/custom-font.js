@@ -1,10 +1,10 @@
-// Aplikasikan Style Khusus untuk Teks "dawinsight.com"
+// Aplikasikan Style Khusus untuk Teks "dawinsight.my.id"
 const applyCustomFont = (root = document.body) => {
   const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT);
   const nodes = [];
   while (walker.nextNode()) {
     const node = walker.currentNode;
-    if (/dawinsight.com/i.test(node.nodeValue)) {
+    if (/dawinsight.my.id/i.test(node.nodeValue)) {
       let el = node.parentNode;
       let skip = false;
       while (el && el !== document.body) {
@@ -22,8 +22,8 @@ const applyCustomFont = (root = document.body) => {
   for (const node of nodes) {
     if (node.parentNode.classList?.contains('dawinsight-com-font')) continue;
     const frag = document.createDocumentFragment();
-    node.nodeValue.split(/(dawinsight.com)/i).forEach(part => {
-      if (/dawinsight.com/i.test(part)) {
+    node.nodeValue.split(/(dawinsight.my.id)/i).forEach(part => {
+      if (/dawinsight.my.id/i.test(part)) {
         const span = document.createElement('span');
         span.className = 'dawinsight-com-font';
         span.textContent = part;

@@ -62,8 +62,37 @@
 }
 
 .tentang-wrapper {
-  max-width: 800px;
+  max-width: 1000px;
   margin: 0 auto;
+  display: flex;
+  gap: 3rem;
+  align-items: flex-start;
+}
+
+.tentang-image {
+  flex: 0 0 auto;
+  width: 300px;
+  min-width: 250px;
+}
+
+.tentang-image img {
+  width: 100%;
+  height: auto;
+  border-radius: var(--radius-xl);
+  box-shadow: 0 8px 32px rgba(6, 182, 212, 0.15);
+  object-fit: cover;
+  display: block;
+  border: 2px solid var(--color-border-light);
+  transition: var(--transition-normal);
+}
+
+.tentang-image img:hover {
+  box-shadow: 0 12px 48px rgba(6, 182, 212, 0.25);
+  transform: translateY(-4px);
+}
+
+.tentang-content {
+  flex: 1;
 }
 
 .tentang-content h2 {
@@ -531,6 +560,17 @@
 
   .hero-content-dwi .hero-tagline {
     font-size: 1.1rem;
+  }
+
+  .tentang-wrapper {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .tentang-image {
+    width: 100%;
+    max-width: 350px;
+    margin: 0 auto;
   }
 
   .pendidikan-list::before {

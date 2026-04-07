@@ -1,4 +1,4 @@
-// Support Button Builder & Dynamic WhatsApp Links untuk dawinsight.com Personal Website
+// Support Button Builder & Dynamic WhatsApp Links untuk dawinsight.my.id Personal Website
 window.addEventListener("load", () => {
   const supportWrapper = document.querySelector(".support-btn-wrapper");
 
@@ -17,38 +17,38 @@ window.addEventListener("load", () => {
 
   // Mapping path halaman ke pesan WA
   const pathMessageMap = {
-    "/": "Halo dawinsight.com! Saya ingin mengenal lebih baik tentang Anda.",
-    "/index.html": "Halo dawinsight.com! Saya ingin mengenal lebih baik tentang Anda.",
-    "/tentang/": "Halo dawinsight.com! Saya tertarik dengan biography dan pengalaman Anda.",
-    "/tentang/index.html": "Halo dawinsight.com! Saya tertarik dengan biography dan pengalaman Anda.",
-    "/artikel/": "Halo dawinsight.com! Artikel-artikel Anda sangat menarik dan informatif.",
-    "/artikel/index.html": "Halo dawinsight.com! Artikel-artikel Anda sangat menarik dan informatif.",
-    "/blog/artikel/": "Halo dawinsight.com! Artikel-artikel Anda sangat menarik dan informatif.",
-    "/blog/artikel/index.html": "Halo dawinsight.com! Artikel-artikel Anda sangat menarik dan informatif.",
-    "/blog/artikel/detail.html": "Halo dawinsight.com! Saya membaca artikel ini dan ingin bertanya lebih lanjut.",
-    "/blog/tips-website/": "Halo dawinsight.com! Tips-tips website Anda sangat berguna.",
-    "/blog/tips-website/index.html": "Halo dawinsight.com! Tips-tips website Anda sangat berguna.",
-    "/blog/tips-website/detail.html": "Halo dawinsight.com! Saya ingin mendiskusikan tips website ini lebih lanjut.",
-    "/portofolio/": "Halo dawinsight.com! Portfolio Anda mengesankan dan menginspirasi.",
-    "/portofolio/index.html": "Halo dawinsight.com! Portfolio Anda mengesankan dan menginspirasi.",
-    "/perusahaan/": "Halo dawinsight.com! Saya ingin mengetahui lebih lanjut tentang profil Anda.",
-    "/perusahaan/index.html": "Halo dawinsight.com! Saya ingin mengetahui lebih lanjut tentang profil Anda.",
-    "/perusahaan/tentang/": "Halo dawinsight.com! Saya ingin mengetahui lebih banyak tentang Anda.",
-    "/perusahaan/tentang/index.html": "Halo dawinsight.com! Saya ingin mengetahui lebih banyak tentang Anda.",
-    "/perusahaan/portofolio/": "Halo dawinsight.com! Portfolio Anda mengesankan.",
-    "/perusahaan/portofolio/index.html": "Halo dawinsight.com! Portfolio Anda mengesankan.",
-    "/perusahaan/karir/": "Halo dawinsight.com! Saya tertarik dengan peluang karir di sini.",
-    "/perusahaan/karir/index.html": "Halo dawinsight.com! Saya tertarik dengan peluang karir di sini.",
-    "/perusahaan/legal/": "Halo dawinsight.com! Saya ingin informasi mengenai aspek legal dan kebijakan.",
-    "/perusahaan/legal/index.html": "Halo dawinsight.com! Saya ingin informasi mengenai aspek legal dan kebijakan.",
-    "/kontak/": "Halo dawinsight.com! Saya ingin menghubungi Anda untuk diskusi lebih lanjut.",
-    "/kontak/index.html": "Halo dawinsight.com! Saya ingin menghubungi Anda untuk diskusi lebih lanjut.",
-    "/ebook/": "Halo dawinsight.com! Saya tertarik dengan E-Book Anda.",
-    "/ebook/index.html": "Halo dawinsight.com! Saya tertarik dengan E-Book Anda."
+    "/": "Halo dawinsight.my.id! Saya ingin mengenal lebih baik tentang Anda.",
+    "/index.html": "Halo dawinsight.my.id! Saya ingin mengenal lebih baik tentang Anda.",
+    "/tentang/": "Halo dawinsight.my.id! Saya tertarik dengan biography dan pengalaman Anda.",
+    "/tentang/index.html": "Halo dawinsight.my.id! Saya tertarik dengan biography dan pengalaman Anda.",
+    "/artikel/": "Halo dawinsight.my.id! Artikel-artikel Anda sangat menarik dan informatif.",
+    "/artikel/index.html": "Halo dawinsight.my.id! Artikel-artikel Anda sangat menarik dan informatif.",
+    "/blog/artikel/": "Halo dawinsight.my.id! Artikel-artikel Anda sangat menarik dan informatif.",
+    "/blog/artikel/index.html": "Halo dawinsight.my.id! Artikel-artikel Anda sangat menarik dan informatif.",
+    "/blog/artikel/detail.html": "Halo dawinsight.my.id! Saya membaca artikel ini dan ingin bertanya lebih lanjut.",
+    "/blog/tips-website/": "Halo dawinsight.my.id! Tips-tips website Anda sangat berguna.",
+    "/blog/tips-website/index.html": "Halo dawinsight.my.id! Tips-tips website Anda sangat berguna.",
+    "/blog/tips-website/detail.html": "Halo dawinsight.my.id! Saya ingin mendiskusikan tips website ini lebih lanjut.",
+    "/portofolio/": "Halo dawinsight.my.id! Portfolio Anda mengesankan dan menginspirasi.",
+    "/portofolio/index.html": "Halo dawinsight.my.id! Portfolio Anda mengesankan dan menginspirasi.",
+    "/perusahaan/": "Halo dawinsight.my.id! Saya ingin mengetahui lebih lanjut tentang profil Anda.",
+    "/perusahaan/index.html": "Halo dawinsight.my.id! Saya ingin mengetahui lebih lanjut tentang profil Anda.",
+    "/perusahaan/tentang/": "Halo dawinsight.my.id! Saya ingin mengetahui lebih banyak tentang Anda.",
+    "/perusahaan/tentang/index.html": "Halo dawinsight.my.id! Saya ingin mengetahui lebih banyak tentang Anda.",
+    "/perusahaan/portofolio/": "Halo dawinsight.my.id! Portfolio Anda mengesankan.",
+    "/perusahaan/portofolio/index.html": "Halo dawinsight.my.id! Portfolio Anda mengesankan.",
+    "/perusahaan/karir/": "Halo dawinsight.my.id! Saya tertarik dengan peluang karir di sini.",
+    "/perusahaan/karir/index.html": "Halo dawinsight.my.id! Saya tertarik dengan peluang karir di sini.",
+    "/perusahaan/legal/": "Halo dawinsight.my.id! Saya ingin informasi mengenai aspek legal dan kebijakan.",
+    "/perusahaan/legal/index.html": "Halo dawinsight.my.id! Saya ingin informasi mengenai aspek legal dan kebijakan.",
+    "/kontak/": "Halo dawinsight.my.id! Saya ingin menghubungi Anda untuk diskusi lebih lanjut.",
+    "/kontak/index.html": "Halo dawinsight.my.id! Saya ingin menghubungi Anda untuk diskusi lebih lanjut.",
+    "/ebook/": "Halo dawinsight.my.id! Saya tertarik dengan E-Book Anda.",
+    "/ebook/index.html": "Halo dawinsight.my.id! Saya tertarik dengan E-Book Anda."
   };
 
   const currentPath = window.location.pathname;
-  const defaultMessage = "Halo dawinsight.com! Saya ingin mengenal lebih baik tentang Anda.";
+  const defaultMessage = "Halo dawinsight.my.id! Saya ingin mengenal lebih baik tentang Anda.";
   const message = pathMessageMap[currentPath] || defaultMessage;
 
   // Bangun HTML support button
@@ -74,12 +74,12 @@ window.addEventListener("load", () => {
             `).join("")}
           </ul>
         </li>
-        <li role="link" class="info" tabindex="0" aria-label="Halaman Kontak dawinsight.com">
+        <li role="link" class="info" tabindex="0" aria-label="Halaman Kontak dawinsight.my.id">
           <i class="fas fa-info-circle" aria-hidden="true"></i> Halaman Kontak
         </li>
         <li class="email" role="none" data-no-cf>
           <i class="fas fa-envelope" aria-hidden="true"></i>
-          <a href="mailto:dwiagus976@gmail.com?subject=Halo dawinsight.com" aria-label="Kirim email ke dwiagus976@gmail.com">
+          <a href="mailto:dwiagus976@gmail.com?subject=Halo dawinsight.my.id" aria-label="Kirim email ke dwiagus976@gmail.com">
             dwiagus976@gmail.com
           </a>
         </li>
