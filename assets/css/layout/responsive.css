@@ -169,7 +169,11 @@
     line-height: 1.6;
   }
 
-  .footer-map { height: clamp(170px, 20vw, 190px); }
+  .artikel-carousel { height: clamp(240px, 40vw, 300px); }
+  .carousel-slide-content { padding: clamp(1rem, 3vw, 1.5rem); padding-bottom: clamp(4.5rem, 14vw, 5rem); gap: 0.4rem; }
+  .carousel-slide-category { font-size: clamp(0.75rem, 1.2vw, 0.85rem); }
+  .carousel-slide-title { font-size: clamp(0.95rem, 1.8vw, 1.05rem); }
+
   .footer-kontak li {
     line-height: 1.8;
     gap: 1rem;
@@ -187,7 +191,9 @@
   .footer-datetime { padding: 0.5rem 1.8rem; }
   #datetime { gap: 0.4rem; }
   #info { gap: 0.1rem; }
-  .footer-map { height: clamp(180px, 20vw, 200px); }
+  .artikel-carousel { height: clamp(250px, 35vw, 320px); }
+  .carousel-slide-content { padding-bottom: clamp(4.5rem, 12vw, 5rem); gap: 0.5rem; }
+  .carousel-slide-category { font-size: 0.8rem; letter-spacing: 0.7px; }
   .link-services-wrapper { gap: 2.5rem; }
   .footer-kontak li { line-height: 1.8; }
 }
