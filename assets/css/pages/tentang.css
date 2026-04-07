@@ -130,7 +130,7 @@
 }
 
 .tentang-list li::before {
-  content: '→';
+  content: '»';
   position: absolute;
   left: -1.5rem;
   color: var(--color-accent-cyan);

@@ -365,7 +365,7 @@ footer {
 }
 
 .carousel-slide-link::after {
-  content: '→';
+  content: '»';
   transition: var(--transition-fast);
 }
 
