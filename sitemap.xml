@@ -4,7 +4,7 @@
   <!-- Homepage -->
   <url>
     <loc>https://dawinsight.my.id/</loc>
-    <lastmod>2026-05-25</lastmod>
+    <lastmod>2026-05-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
@@ -12,67 +12,67 @@
   <!-- Main Pages -->
   <url>
     <loc>https://dawinsight.my.id/artikel/</loc>
-    <lastmod>2026-05-25</lastmod>
+    <lastmod>2026-05-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://dawinsight.my.id/tentang/</loc>
-    <lastmod>2026-05-25</lastmod>
+    <lastmod>2026-05-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://dawinsight.my.id/tentang/biografi/</loc>
-    <lastmod>2026-05-25</lastmod>
+    <lastmod>2026-05-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://dawinsight.my.id/tentang/organisasi/</loc>
-    <lastmod>2026-05-25</lastmod>
+    <lastmod>2026-05-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://dawinsight.my.id/portofolio/</loc>
-    <lastmod>2026-05-25</lastmod>
+    <lastmod>2026-05-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://dawinsight.my.id/portofolio/karya-tulis/</loc>
-    <lastmod>2026-05-25</lastmod>
+    <lastmod>2026-05-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://dawinsight.my.id/portofolio/akademik/</loc>
-    <lastmod>2026-05-25</lastmod>
+    <lastmod>2026-05-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://dawinsight.my.id/portofolio/organisasi/</loc>
-    <lastmod>2026-05-25</lastmod>
+    <lastmod>2026-05-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://dawinsight.my.id/portofolio/sertifikasi/</loc>
-    <lastmod>2026-05-25</lastmod>
+    <lastmod>2026-05-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://dawinsight.my.id/ebook/</loc>
-    <lastmod>2026-05-25</lastmod>
+    <lastmod>2026-05-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://dawinsight.my.id/kontak/</loc>
-    <lastmod>2026-05-25</lastmod>
+    <lastmod>2026-05-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -80,55 +80,55 @@
   <!-- Artikel - Islami -->
   <url>
     <loc>https://dawinsight.my.id/artikel/islami/</loc>
-    <lastmod>2026-05-25</lastmod>
+    <lastmod>2026-05-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://dawinsight.my.id/artikel/islami/bermazhab-fondasi-peradaban.html</loc>
-    <lastmod>2026-05-25</lastmod>
+    <loc>https://dawinsight.my.id/artikel/islami/bermazhab-fondasi-peradaban</loc>
+    <lastmod>2026-05-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://dawinsight.my.id/artikel/islami/feminisme-kesetaraan-gender.html</loc>
-    <lastmod>2026-05-25</lastmod>
+    <loc>https://dawinsight.my.id/artikel/islami/feminisme-kesetaraan-gender</loc>
+    <lastmod>2026-05-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://dawinsight.my.id/artikel/islami/islam-berkemajuan-gaya-muhammadiyah.html</loc>
-    <lastmod>2026-05-25</lastmod>
+    <loc>https://dawinsight.my.id/artikel/islami/islam-berkemajuan-gaya-muhammadiyah</loc>
+    <lastmod>2026-05-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://dawinsight.my.id/artikel/islami/islam-dan-kedamaian.html</loc>
-    <lastmod>2026-05-25</lastmod>
+    <loc>https://dawinsight.my.id/artikel/islami/islam-dan-kedamaian</loc>
+    <lastmod>2026-05-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://dawinsight.my.id/artikel/islami/kiai-sadrach-rasul-jawa.html</loc>
-    <lastmod>2026-05-25</lastmod>
+    <loc>https://dawinsight.my.id/artikel/islami/kiai-sadrach-rasul-jawa</loc>
+    <lastmod>2026-05-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://dawinsight.my.id/artikel/islami/pluralisme-agama.html</loc>
-    <lastmod>2026-05-25</lastmod>
+    <loc>https://dawinsight.my.id/artikel/islami/pluralisme-agama</loc>
+    <lastmod>2026-05-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://dawinsight.my.id/artikel/islami/spiritualitas-sosial-di-tengah-krisis.html</loc>
-    <lastmod>2026-05-25</lastmod>
+    <loc>https://dawinsight.my.id/artikel/islami/spiritualitas-sosial-di-tengah-krisis</loc>
+    <lastmod>2026-05-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://dawinsight.my.id/artikel/islami/sufisme-spiritualitas-kontemporer.html</loc>
-    <lastmod>2026-05-25</lastmod>
+    <loc>https://dawinsight.my.id/artikel/islami/sufisme-spiritualitas-kontemporer</loc>
+    <lastmod>2026-05-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -136,55 +136,55 @@
   <!-- Artikel - Pemikiran -->
   <url>
     <loc>https://dawinsight.my.id/artikel/pemikiran/</loc>
-    <lastmod>2026-05-25</lastmod>
+    <lastmod>2026-05-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://dawinsight.my.id/artikel/pemikiran/ekologis-filosofi.html</loc>
-    <lastmod>2026-05-25</lastmod>
+    <loc>https://dawinsight.my.id/artikel/pemikiran/ekologis-filosofi</loc>
+    <lastmod>2026-05-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://dawinsight.my.id/artikel/pemikiran/etika-kontemporer.html</loc>
-    <lastmod>2026-05-25</lastmod>
+    <loc>https://dawinsight.my.id/artikel/pemikiran/etika-kontemporer</loc>
+    <lastmod>2026-05-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://dawinsight.my.id/artikel/pemikiran/filsafat-existensialisme.html</loc>
-    <lastmod>2026-05-25</lastmod>
+    <loc>https://dawinsight.my.id/artikel/pemikiran/filsafat-existensialisme</loc>
+    <lastmod>2026-05-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://dawinsight.my.id/artikel/pemikiran/identitas-diri.html</loc>
-    <lastmod>2026-05-25</lastmod>
+    <loc>https://dawinsight.my.id/artikel/pemikiran/identitas-diri</loc>
+    <lastmod>2026-05-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://dawinsight.my.id/artikel/pemikiran/kesadaran-kolektif.html</loc>
-    <lastmod>2026-05-25</lastmod>
+    <loc>https://dawinsight.my.id/artikel/pemikiran/kesadaran-kolektif</loc>
+    <lastmod>2026-05-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://dawinsight.my.id/artikel/pemikiran/makna-memudar-halal.html</loc>
-    <lastmod>2026-05-25</lastmod>
+    <loc>https://dawinsight.my.id/artikel/pemikiran/makna-memudar-halal</loc>
+    <lastmod>2026-05-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://dawinsight.my.id/artikel/pemikiran/terbang-bersama-elang.html</loc>
-    <lastmod>2026-05-25</lastmod>
+    <loc>https://dawinsight.my.id/artikel/pemikiran/terbang-bersama-elang</loc>
+    <lastmod>2026-05-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://dawinsight.my.id/artikel/pemikiran/transhumnisme-teknologi.html</loc>
-    <lastmod>2026-05-25</lastmod>
+    <loc>https://dawinsight.my.id/artikel/pemikiran/transhumnisme-teknologi</loc>
+    <lastmod>2026-05-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -192,49 +192,49 @@
   <!-- Artikel - Sosial -->
   <url>
     <loc>https://dawinsight.my.id/artikel/sosial/</loc>
-    <lastmod>2026-05-25</lastmod>
+    <lastmod>2026-05-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://dawinsight.my.id/artikel/sosial/aktivisme-pemuda.html</loc>
-    <lastmod>2026-05-25</lastmod>
+    <loc>https://dawinsight.my.id/artikel/sosial/aktivisme-pemuda</loc>
+    <lastmod>2026-05-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://dawinsight.my.id/artikel/sosial/ekonomi-sirkular.html</loc>
-    <lastmod>2026-05-25</lastmod>
+    <loc>https://dawinsight.my.id/artikel/sosial/ekonomi-sirkular</loc>
+    <lastmod>2026-05-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://dawinsight.my.id/artikel/sosial/keramahan-batas-diri.html</loc>
-    <lastmod>2026-05-25</lastmod>
+    <loc>https://dawinsight.my.id/artikel/sosial/keramahan-batas-diri</loc>
+    <lastmod>2026-05-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://dawinsight.my.id/artikel/sosial/kesenjangan-ekonomi.html</loc>
-    <lastmod>2026-05-25</lastmod>
+    <loc>https://dawinsight.my.id/artikel/sosial/kesenjangan-ekonomi</loc>
+    <lastmod>2026-05-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://dawinsight.my.id/artikel/sosial/kritik-sosial.html</loc>
-    <lastmod>2026-05-25</lastmod>
+    <loc>https://dawinsight.my.id/artikel/sosial/kritik-sosial</loc>
+    <lastmod>2026-05-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://dawinsight.my.id/artikel/sosial/kurir-ekonomi-digital.html</loc>
-    <lastmod>2026-05-25</lastmod>
+    <loc>https://dawinsight.my.id/artikel/sosial/kurir-ekonomi-digital</loc>
+    <lastmod>2026-05-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://dawinsight.my.id/artikel/sosial/migrasi-budaya.html</loc>
-    <lastmod>2026-05-25</lastmod>
+    <loc>https://dawinsight.my.id/artikel/sosial/migrasi-budaya</loc>
+    <lastmod>2026-05-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -242,13 +242,13 @@
   <!-- Artikel - Politik -->
   <url>
     <loc>https://dawinsight.my.id/artikel/politik/</loc>
-    <lastmod>2026-05-25</lastmod>
+    <lastmod>2026-05-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://dawinsight.my.id/artikel/politik/ironi-mbg-pendidikan.html</loc>
-    <lastmod>2026-05-25</lastmod>
+    <loc>https://dawinsight.my.id/artikel/politik/ironi-mbg-pendidikan</loc>
+    <lastmod>2026-05-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
