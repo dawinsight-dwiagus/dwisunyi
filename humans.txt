@@ -1,0 +1,29 @@
+/* HUMANS.TXT FOR DAWINSIGHT.MY.ID */
+/* The humans behind the website */
+
+/* TEAM */
+Author: Dwi Sunyi
+Contact: contact@dawinsight.my.id
+Website: https://dawinsight.my.id
+Twitter: @dwisunyism
+
+Developer: Lukman Looker
+Contact: developer@sisitus.com
+Website: https://sisitus.com
+Twitter: @lukman_looker
+
+/* SITE */
+Last Update: 2026-05-25
+Standards: HTML5, CSS3, JavaScript ES6
+Components: Responsive Design, PWA Ready
+Language: Indonesian (id-ID)
+Charset: UTF-8
+
+/* THANKS */
+Terimakasih kepada semua pembaca dan penyokong.
+Thanks to all readers and supporters.
+
+/* TOOLS */
+Built with: HTML5, CSS3, JavaScript
+Version Control: Git
+Hosting: Professional Web Server

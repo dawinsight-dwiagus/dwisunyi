@@ -1,0 +1,53 @@
+/* Cloudflare Pages Security & Optimization Headers */
+
+/* Security Headers */
+/*
+  X-Frame-Options: SAMEORIGIN
+  X-Content-Type-Options: nosniff
+  X-XSS-Protection: 1; mode=block
+  Permissions-Policy: geolocation=(), microphone=(), camera=()
+  Referrer-Policy: strict-origin-when-cross-origin
+*/
+
+/* Cache Control - Static Assets */
+/assets/css/*
+  Cache-Control: public, max-age=31536000, immutable
+
+/assets/js/*
+  Cache-Control: public, max-age=31536000, immutable
+
+/assets/img/*
+  Cache-Control: public, max-age=31536000, immutable
+
+/assets/favicon/*
+  Cache-Control: public, max-age=31536000, immutable
+
+/* Cache Control - HTML */
+/*.html
+  Cache-Control: public, max-age=3600, must-revalidate
+
+/index.html
+  Cache-Control: public, max-age=3600, must-revalidate
+
+/* Cache Control - Feeds & Meta */
+/robots.txt
+  Cache-Control: public, max-age=604800
+
+/sitemap.xml
+  Cache-Control: public, max-age=604800
+
+/feed.xml
+  Cache-Control: public, max-age=3600
+
+/ads.txt
+  Cache-Control: public, max-age=604800
+
+/* Content Type */
+/*.webp
+  Content-Type: image/webp
+
+/*.xml
+  Content-Type: application/xml
+
+/*.json
+  Content-Type: application/json

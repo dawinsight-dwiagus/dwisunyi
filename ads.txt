@@ -1,0 +1,8 @@
+# ads.txt file for https://dawinsight.my.id
+# Platform, Publisher ID, Relationship Type, Certification Authority ID
+
+# Google AdSense (if using)
+# google.com, pub-xxxxxxxxxxxxxxxx, DIRECT, f08c47fec0942fa0
+
+# Other ad networks can be added here
+# Please contact admin@dawinsight.my.id for ad network partnership

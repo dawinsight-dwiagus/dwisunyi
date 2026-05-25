@@ -620,6 +620,7 @@
   display: flex;
   justify-content: flex-start;
   gap: 15px;
+  grid-column: 1 / -1;
 }
 
 .artikel-navigation .btn {

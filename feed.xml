@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dwi Sunyi - Artikel &amp; Pemikiran</title>
+    <link>https://dawinsight.my.id</link>
+    <atom:link href="https://dawinsight.my.id/feed.xml" rel="self" type="application/rss+xml" />
+    <description>Insight tajam untuk zaman yang bising. Artikel tentang agama, sosial, dan pemikiran kontemporer.</description>
+    <language>id</language>
+    <copyright>© 2026 Dwi Sunyi. All rights reserved.</copyright>
+    <lastBuildDate>Sun, 25 May 2026 00:00:00 GMT</lastBuildDate>
+    <managingEditor>dwiagus976@gmail.com</managingEditor>
+    <webMaster>contact@dawinsight.my.id</webMaster>
+    <image>
+      <url>https://dawinsight.my.id/assets/img/logo/logo.webp</url>
+      <title>Dwi Sunyi</title>
+      <link>https://dawinsight.my.id</link>
+    </image>
+
+    <!-- Artikel Islami -->
+    <item>
+      <title>Bermazhab: Fondasi Peradaban</title>
+      <link>https://dawinsight.my.id/artikel/islami/bermazhab-fondasi-peradaban.html</link>
+      <guid>https://dawinsight.my.id/artikel/islami/bermazhab-fondasi-peradaban.html</guid>
+      <pubDate>Sun, 25 May 2026 00:00:00 GMT</pubDate>
+      <category>Islami</category>
+      <description>Pemahaman mendalam tentang bagaimana mazhab menjadi fondasi peradaban Islam dan relevansinya di era modern.</description>
+    </item>
+    <item>
+      <title>Feminisme dan Kesetaraan Gender dalam Islam</title>
+      <link>https://dawinsight.my.id/artikel/islami/feminisme-kesetaraan-gender.html</link>
+      <guid>https://dawinsight.my.id/artikel/islami/feminisme-kesetaraan-gender.html</guid>
+      <pubDate>Sun, 25 May 2026 00:00:00 GMT</pubDate>
+      <category>Islami</category>
+      <description>Diskusi tentang feminisme, kesetaraan gender, dan perspektif Islam dalam menghadapi isu-isu kontemporer.</description>
+    </item>
+    <item>
+      <title>Islam Berkemajuan: Gaya Muhammadiyah</title>
+      <link>https://dawinsight.my.id/artikel/islami/islam-berkemajuan-gaya-muhammadiyah.html</link>
+      <guid>https://dawinsight.my.id/artikel/islami/islam-berkemajuan-gaya-muhammadiyah.html</guid>
+      <pubDate>Sun, 25 May 2026 00:00:00 GMT</pubDate>
+      <category>Islami</category>
+      <description>Eksplorasi tentang Islam berkemajuan dan bagaimana Muhammadiyah menafsirkan modernitas dalam konteks keislaman.</description>
+    </item>
+    <item>
+      <title>Islam dan Kedamaian di Dunia yang Penuh Konflik</title>
+      <link>https://dawinsight.my.id/artikel/islami/islam-dan-kedamaian.html</link>
+      <guid>https://dawinsight.my.id/artikel/islami/islam-dan-kedamaian.html</guid>
+      <pubDate>Sun, 25 May 2026 00:00:00 GMT</pubDate>
+      <category>Islami</category>
+      <description>Refleksi tentang pesan-pesan perdamaian dalam Islam dan kontribusinya untuk dunia yang lebih damai.</description>
+    </item>
+    <item>
+      <title>Kiai Sadrach: Rasul Jawa dan Perjuangannya</title>
+      <link>https://dawinsight.my.id/artikel/islami/kiai-sadrach-rasul-jawa.html</link>
+      <guid>https://dawinsight.my.id/artikel/islami/kiai-sadrach-rasul-jawa.html</guid>
+      <pubDate>Sun, 25 May 2026 00:00:00 GMT</pubDate>
+      <category>Islami</category>
+      <description>Kisah inspiratif tentang Kiai Sadrach dan kontribusinya dalam penyebaran Islam di Jawa.</description>
+    </item>
+    <item>
+      <title>Pluralisme Agama: Perspektif Islami</title>
+      <link>https://dawinsight.my.id/artikel/islami/pluralisme-agama.html</link>
+      <guid>https://dawinsight.my.id/artikel/islami/pluralisme-agama.html</guid>
+      <pubDate>Sun, 25 May 2026 00:00:00 GMT</pubDate>
+      <category>Islami</category>
+      <description>Analisis tentang pluralisme agama dan bagaimana Islam memandang keragaman dalam berbagai tradisi kepercayaan.</description>
+    </item>
+    <item>
+      <title>Spiritualitas Sosial di Tengah Krisis Modernitas</title>
+      <link>https://dawinsight.my.id/artikel/islami/spiritualitas-sosial-di-tengah-krisis.html</link>
+      <guid>https://dawinsight.my.id/artikel/islami/spiritualitas-sosial-di-tengah-krisis.html</guid>
+      <pubDate>Sun, 25 May 2026 00:00:00 GMT</pubDate>
+      <category>Islami</category>
+      <description>Pemikiran tentang spiritualitas sosial sebagai jawaban atas krisis moral dan sosial di era modern.</description>
+    </item>
+    <item>
+      <title>Sufisme: Spiritualitas Kontemporer dalam Islam</title>
+      <link>https://dawinsight.my.id/artikel/islami/sufisme-spiritualitas-kontemporer.html</link>
+      <guid>https://dawinsight.my.id/artikel/islami/sufisme-spiritualitas-kontemporer.html</guid>
+      <pubDate>Sun, 25 May 2026 00:00:00 GMT</pubDate>
+      <category>Islami</category>
+      <description>Eksplorasi tentang sufisme dan relevansinya sebagai bentuk spiritualitas yang hidup di zaman kontemporer.</description>
+    </item>
+
+    <!-- Artikel Pemikiran -->
+    <item>
+      <title>Ekologis: Filosofi dan Tanggung Jawab Manusia</title>
+      <link>https://dawinsight.my.id/artikel/pemikiran/ekologis-filosofi.html</link>
+      <guid>https://dawinsight.my.id/artikel/pemikiran/ekologis-filosofi.html</guid>
+      <pubDate>Sun, 25 May 2026 00:00:00 GMT</pubDate>
+      <category>Pemikiran</category>
+      <description>Filosofi ekologi dan bagaimana manusia memahami tanggung jawabnya terhadap alam dan lingkungan.</description>
+    </item>
+    <item>
+      <title>Etika Kontemporer dalam Masyarakat Digital</title>
+      <link>https://dawinsight.my.id/artikel/pemikiran/etika-kontemporer.html</link>
+      <guid>https://dawinsight.my.id/artikel/pemikiran/etika-kontemporer.html</guid>
+      <pubDate>Sun, 25 May 2026 00:00:00 GMT</pubDate>
+      <category>Pemikiran</category>
+      <description>Diskusi tentang etika di era digital dan tantangan moral yang dihadapi masyarakat kontemporer.</description>
+    </item>
+    <item>
+      <title>Filsafat Eksistensialisme dan Makna Hidup</title>
+      <link>https://dawinsight.my.id/artikel/pemikiran/filsafat-existensialisme.html</link>
+      <guid>https://dawinsight.my.id/artikel/pemikiran/filsafat-existensialisme.html</guid>
+      <pubDate>Sun, 25 May 2026 00:00:00 GMT</pubDate>
+      <category>Pemikiran</category>
+      <description>Analisis mendalam tentang existensialisme dan bagaimana filosofi ini menjawab pertanyaan makna hidup manusia.</description>
+    </item>
+    <item>
+      <title>Identitas Diri: Pencarian dan Penemuan</title>
+      <link>https://dawinsight.my.id/artikel/pemikiran/identitas-diri.html</link>
+      <guid>https://dawinsight.my.id/artikel/pemikiran/identitas-diri.html</guid>
+      <pubDate>Sun, 25 May 2026 00:00:00 GMT</pubDate>
+      <category>Pemikiran</category>
+      <description>Refleksi tentang perjalanan menemukan identitas diri dan pentingnya autentisitas dalam kehidupan modern.</description>
+    </item>
+    <item>
+      <title>Kesadaran Kolektif: Kekuatan Bersama Masyarakat</title>
+      <link>https://dawinsight.my.id/artikel/pemikiran/kesadaran-kolektif.html</link>
+      <guid>https://dawinsight.my.id/artikel/pemikiran/kesadaran-kolektif.html</guid>
+      <pubDate>Sun, 25 May 2026 00:00:00 GMT</pubDate>
+      <category>Pemikiran</category>
+      <description>Pemikiran tentang kesadaran kolektif dan bagaimana gerakan bersama dapat mengubah masyarakat.</description>
+    </item>
+    <item>
+      <title>Makna Memudar: Studi Kritis tentang "Halal"</title>
+      <link>https://dawinsight.my.id/artikel/pemikiran/makna-memudar-halal.html</link>
+      <guid>https://dawinsight.my.id/artikel/pemikiran/makna-memudar-halal.html</guid>
+      <pubDate>Sun, 25 May 2026 00:00:00 GMT</pubDate>
+      <category>Pemikiran</category>
+      <description>Analisis kritis tentang bagaimana makna "halal" memudar dan pergeserannya dalam konteks ekonomi modern.</description>
+    </item>
+    <item>
+      <title>Terbang Bersama Elang: Metafora Kebebasan dan Kekuatan</title>
+      <link>https://dawinsight.my.id/artikel/pemikiran/terbang-bersama-elang.html</link>
+      <guid>https://dawinsight.my.id/artikel/pemikiran/terbang-bersama-elang.html</guid>
+      <pubDate>Sun, 25 May 2026 00:00:00 GMT</pubDate>
+      <category>Pemikiran</category>
+      <description>Metafora tentang kebebasan, kekuatan, dan transformasi diri melalui gambaran terbang bersama elang.</description>
+    </item>
+    <item>
+      <title>Transhumanisme dan Teknologi: Masa Depan Manusia</title>
+      <link>https://dawinsight.my.id/artikel/pemikiran/transhumnisme-teknologi.html</link>
+      <guid>https://dawinsight.my.id/artikel/pemikiran/transhumnisme-teknologi.html</guid>
+      <pubDate>Sun, 25 May 2026 00:00:00 GMT</pubDate>
+      <category>Pemikiran</category>
+      <description>Eksplorasi tentang transhumanisme, teknologi, dan pertanyaan filosofis tentang masa depan umat manusia.</description>
+    </item>
+
+    <!-- Artikel Sosial -->
+    <item>
+      <title>Aktivisme Pemuda: Suara untuk Perubahan Sosial</title>
+      <link>https://dawinsight.my.id/artikel/sosial/aktivisme-pemuda.html</link>
+      <guid>https://dawinsight.my.id/artikel/sosial/aktivisme-pemuda.html</guid>
+      <pubDate>Sun, 25 May 2026 00:00:00 GMT</pubDate>
+      <category>Sosial</category>
+      <description>Analisis tentang peran pemuda dalam aktivisme sosial dan kontribusi mereka untuk perubahan sosial positif.</description>
+    </item>
+    <item>
+      <title>Ekonomi Sirkular: Model Ekonomi Berkelanjutan</title>
+      <link>https://dawinsight.my.id/artikel/sosial/ekonomi-sirkular.html</link>
+      <guid>https://dawinsight.my.id/artikel/sosial/ekonomi-sirkular.html</guid>
+      <pubDate>Sun, 25 May 2026 00:00:00 GMT</pubDate>
+      <category>Sosial</category>
+      <description>Pemikiran tentang ekonomi sirkular sebagai alternatif model ekonomi linear yang tidak berkelanjutan.</description>
+    </item>
+    <item>
+      <title>Keramahan dan Batas Diri: Keseimbangan dalam Hubungan</title>
+      <link>https://dawinsight.my.id/artikel/sosial/keramahan-batas-diri.html</link>
+      <guid>https://dawinsight.my.id/artikel/sosial/keramahan-batas-diri.html</guid>
+      <pubDate>Sun, 25 May 2026 00:00:00 GMT</pubDate>
+      <category>Sosial</category>
+      <description>Refleksi tentang keseimbangan antara keramahan dan batas diri dalam membangun hubungan interpersonal yang sehat.</description>
+    </item>
+    <item>
+      <title>Kesenjangan Ekonomi: Akar Masalah Sosial</title>
+      <link>https://dawinsight.my.id/artikel/sosial/kesenjangan-ekonomi.html</link>
+      <guid>https://dawinsight.my.id/artikel/sosial/kesenjangan-ekonomi.html</guid>
+      <pubDate>Sun, 25 May 2026 00:00:00 GMT</pubDate>
+      <category>Sosial</category>
+      <description>Analisis mendalam tentang kesenjangan ekonomi dan dampaknya terhadap stabilitas sosial masyarakat.</description>
+    </item>
+    <item>
+      <title>Kritik Sosial: Suara Berani untuk Perubahan</title>
+      <link>https://dawinsight.my.id/artikel/sosial/kritik-sosial.html</link>
+      <guid>https://dawinsight.my.id/artikel/sosial/kritik-sosial.html</guid>
+      <pubDate>Sun, 25 May 2026 00:00:00 GMT</pubDate>
+      <category>Sosial</category>
+      <description>Pentingnya kritik sosial yang konstruktif sebagai mekanisme perubahan dan perbaikan dalam masyarakat.</description>
+    </item>
+    <item>
+      <title>Kurir Ekonomi Digital: Fenomena Gig Economy</title>
+      <link>https://dawinsight.my.id/artikel/sosial/kurir-ekonomi-digital.html</link>
+      <guid>https://dawinsight.my.id/artikel/sosial/kurir-ekonomi-digital.html</guid>
+      <pubDate>Sun, 25 May 2026 00:00:00 GMT</pubDate>
+      <category>Sosial</category>
+      <description>Studi tentang gig economy, pekerja kurir, dan implikasi sosial-ekonomi dari ekonomi digital modern.</description>
+    </item>
+    <item>
+      <title>Migrasi dan Budaya: Pertemuan Dua Dunia</title>
+      <link>https://dawinsight.my.id/artikel/sosial/migrasi-budaya.html</link>
+      <guid>https://dawinsight.my.id/artikel/sosial/migrasi-budaya.html</guid>
+      <pubDate>Sun, 25 May 2026 00:00:00 GMT</pubDate>
+      <category>Sosial</category>
+      <description>Refleksi tentang fenomena migrasi dan perpaduan budaya dalam menciptakan identitas baru di era globalisasi.</description>
+    </item>
+
+    <!-- Artikel Politik -->
+    <item>
+      <title>Ironi MBG (Masyarakat Berdaulat Ganda) dalam Pendidikan</title>
+      <link>https://dawinsight.my.id/artikel/politik/ironi-mbg-pendidikan.html</link>
+      <guid>https://dawinsight.my.id/artikel/politik/ironi-mbg-pendidikan.html</guid>
+      <pubDate>Sun, 25 May 2026 00:00:00 GMT</pubDate>
+      <category>Politik</category>
+      <description>Analisis kritis tentang ironi konsep Masyarakat Berdaulat Ganda (MBG) dalam konteks kebijakan pendidikan Indonesia.</description>
+    </item>
+  </channel>
+</rss>

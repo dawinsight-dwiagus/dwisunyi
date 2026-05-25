@@ -1,0 +1,4 @@
+Contact: mailto:contact@dawinsight.my.id
+Expires: 2027-05-25T00:00:00.000Z
+Preferred-Languages: id, en
+Canonical: https://dawinsight.my.id/.well-known/security.txt

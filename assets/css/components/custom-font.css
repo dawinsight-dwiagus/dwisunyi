@@ -57,7 +57,7 @@
   font-weight: 600;
   line-height: 1;
   color: #ffffff;
-  background-color: #0f172a;
+  background-color: #162033;
   padding: 0.2rem 0.4rem;
   border-radius: 3px;
   opacity: 0.32;
@@ -73,7 +73,7 @@
 }
 
 .logo.wm-sc span {
-  color: var(--success-green);
+  color: #2563EB;
   transform: none !important;
 }
 
