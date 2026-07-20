@@ -174,8 +174,8 @@ export const artikelCarouselData = [
   { 
     title: "Transhumanisme dan Teknologi", 
     category: "Pemikiran", 
-    href: "/artikel/pemikiran/transhumnisme-teknologi.html",
-    image: "/assets/img/artikel/pemikiran/transhumnisme-teknologi.webp"
+    href: "/artikel/pemikiran/transhumanisme-teknologi.html",
+    image: "/assets/img/artikel/pemikiran/transhumanisme-teknologi.webp"
   },
   
   // Sosial
