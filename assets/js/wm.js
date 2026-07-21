@@ -9,7 +9,7 @@
 
   // Atur variabel CSS --favicon-url di root atau elemen watermark
   const root = document.documentElement;
-  root.style.setProperty('--favicon-url', 'url("https://mysisi.pages.dev/assets/favicon/favicon-32x32.png")');
+  root.style.setProperty('--favicon-url', 'url("https://sisitus.com/assets/favicon/favicon-32x32.png")');
 
   // Buat elemen .footer-copyright
   const copyrightContainer = document.createElement("div");
@@ -24,7 +24,7 @@
 
   // Buat watermark
   const wm = document.createElement("a");
-  wm.href = "https://mysisi.pages.dev";
+  wm.href = "https://sisitus.com";
   wm.target = "_blank";
   wm.rel = "nofollow noopener";
   wm.className = "logo wm-sc";
