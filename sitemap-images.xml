@@ -1,155 +1,142 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
-  <!-- ISLAMI -->
   <url>
-    <loc>https://dawinsight.my.id/artikel/islami/bermazhab-fondasi-peradaban</loc>
+    <loc>https://dawinsight.my.id/artikel/islami/api-yang-kehilangan-namanya.html</loc>
+    <image:image>
+      <image:loc>https://dawinsight.my.id/assets/img/artikel/islami/api-yang-kehilangan-namanya.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://dawinsight.my.id/artikel/islami/bermazhab-fondasi-peradaban.html</loc>
     <image:image>
       <image:loc>https://dawinsight.my.id/assets/img/artikel/islami/bermazhab-fondasi-peradaban.webp</image:loc>
     </image:image>
   </url>
   <url>
-    <loc>https://dawinsight.my.id/artikel/islami/feminisme-kesetaraan-gender</loc>
+    <loc>https://dawinsight.my.id/artikel/islami/feminisme-kesetaraan-gender.html</loc>
     <image:image>
       <image:loc>https://dawinsight.my.id/assets/img/artikel/islami/feminisme-kesetaraan-gender.webp</image:loc>
     </image:image>
   </url>
   <url>
-    <loc>https://dawinsight.my.id/artikel/islami/islam-berkemajuan-gaya-muhammadiyah</loc>
+    <loc>https://dawinsight.my.id/artikel/islami/islam-berkemajuan-gaya-muhammadiyah.html</loc>
     <image:image>
       <image:loc>https://dawinsight.my.id/assets/img/artikel/islami/islam-berkemajuan-gaya-muhammadiyah.webp</image:loc>
     </image:image>
   </url>
   <url>
-    <loc>https://dawinsight.my.id/artikel/islami/islam-dan-kedamaian</loc>
-    <image:image>
-      <image:loc>https://dawinsight.my.id/assets/img/artikel/islami/islam-dan-kedamaian.webp</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://dawinsight.my.id/artikel/islami/kiai-sadrach-rasul-jawa</loc>
+    <loc>https://dawinsight.my.id/artikel/islami/kiai-sadrach-rasul-jawa.html</loc>
     <image:image>
       <image:loc>https://dawinsight.my.id/assets/img/artikel/islami/kiai-sadrach-rasul-jawa.webp</image:loc>
     </image:image>
   </url>
   <url>
-    <loc>https://dawinsight.my.id/artikel/islami/pluralisme-agama</loc>
-    <image:image>
-      <image:loc>https://dawinsight.my.id/assets/img/artikel/islami/pluralisme-agama.webp</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://dawinsight.my.id/artikel/islami/spiritualitas-sosial-di-tengah-krisis</loc>
-    <image:image>
-      <image:loc>https://dawinsight.my.id/assets/img/artikel/islami/spiritualitas-sosial-di-tengah-krisis.webp</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://dawinsight.my.id/artikel/islami/sufisme-spiritualitas-kontemporer</loc>
-    <image:image>
-      <image:loc>https://dawinsight.my.id/assets/img/artikel/islami/sufisme-spiritualitas-kontemporer.webp</image:loc>
-    </image:image>
-  </url>
-
-  <!-- PEMIKIRAN -->
-  <url>
-    <loc>https://dawinsight.my.id/artikel/pemikiran/ekologis-filosofi</loc>
-    <image:image>
-      <image:loc>https://dawinsight.my.id/assets/img/artikel/pemikiran/ekologis-filosofi.webp</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://dawinsight.my.id/artikel/pemikiran/etika-kontemporer</loc>
-    <image:image>
-      <image:loc>https://dawinsight.my.id/assets/img/artikel/pemikiran/etika-kontemporer.webp</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://dawinsight.my.id/artikel/pemikiran/filsafat-existensialisme</loc>
-    <image:image>
-      <image:loc>https://dawinsight.my.id/assets/img/artikel/pemikiran/filsafat-existensialisme.webp</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://dawinsight.my.id/artikel/pemikiran/identitas-diri</loc>
-    <image:image>
-      <image:loc>https://dawinsight.my.id/assets/img/artikel/pemikiran/identitas-diri.webp</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://dawinsight.my.id/artikel/pemikiran/kesadaran-kolektif</loc>
+    <loc>https://dawinsight.my.id/artikel/pemikiran/kesadaran-kolektif.html</loc>
     <image:image>
       <image:loc>https://dawinsight.my.id/assets/img/artikel/pemikiran/kesadaran-kolektif.webp</image:loc>
     </image:image>
   </url>
   <url>
-    <loc>https://dawinsight.my.id/artikel/pemikiran/makna-memudar-halal</loc>
+    <loc>https://dawinsight.my.id/artikel/pemikiran/makna-memudar-halal.html</loc>
     <image:image>
       <image:loc>https://dawinsight.my.id/assets/img/artikel/pemikiran/makna-memudar-halal.webp</image:loc>
     </image:image>
   </url>
   <url>
-    <loc>https://dawinsight.my.id/artikel/pemikiran/terbang-bersama-elang</loc>
+    <loc>https://dawinsight.my.id/artikel/pemikiran/terbang-bersama-elang.html</loc>
     <image:image>
       <image:loc>https://dawinsight.my.id/assets/img/artikel/pemikiran/terbang-bersama-elang.webp</image:loc>
     </image:image>
   </url>
   <url>
-    <loc>https://dawinsight.my.id/artikel/pemikiran/transhumanisme-teknologi</loc>
+    <loc>https://dawinsight.my.id/artikel/politik/ironi-mbg-pendidikan.html</loc>
     <image:image>
-      <image:loc>https://dawinsight.my.id/assets/img/artikel/pemikiran/transhumanisme-teknologi.webp</image:loc>
-    </image:image>
-  </url>
-
-  <!-- SOSIAL -->
-  <url>
-    <loc>https://dawinsight.my.id/artikel/sosial/aktivisme-pemuda</loc>
-    <image:image>
-      <image:loc>https://dawinsight.my.id/assets/img/artikel/sosial/aktivisme-pemuda.webp</image:loc>
+      <image:loc>https://dawinsight.my.id/assets/img/artikel/politik/ironi-mbg-pendidikan.webp</image:loc>
     </image:image>
   </url>
   <url>
-    <loc>https://dawinsight.my.id/artikel/sosial/ekonomi-sirkular</loc>
-    <image:image>
-      <image:loc>https://dawinsight.my.id/assets/img/artikel/sosial/ekonomi-sirkular.webp</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://dawinsight.my.id/artikel/sosial/keramahan-batas-diri</loc>
+    <loc>https://dawinsight.my.id/artikel/sosial/keramahan-batas-diri.html</loc>
     <image:image>
       <image:loc>https://dawinsight.my.id/assets/img/artikel/sosial/keramahan-batas-diri.webp</image:loc>
     </image:image>
   </url>
   <url>
-    <loc>https://dawinsight.my.id/artikel/sosial/kesenjangan-ekonomi</loc>
-    <image:image>
-      <image:loc>https://dawinsight.my.id/assets/img/artikel/sosial/kesenjangan-ekonomi.webp</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://dawinsight.my.id/artikel/sosial/kritik-sosial</loc>
-    <image:image>
-      <image:loc>https://dawinsight.my.id/assets/img/artikel/sosial/kritik-sosial.webp</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://dawinsight.my.id/artikel/sosial/kurir-ekonomi-digital</loc>
+    <loc>https://dawinsight.my.id/artikel/sosial/kurir-ekonomi-digital.html</loc>
     <image:image>
       <image:loc>https://dawinsight.my.id/assets/img/artikel/sosial/kurir-ekonomi-digital.webp</image:loc>
     </image:image>
   </url>
   <url>
-    <loc>https://dawinsight.my.id/artikel/sosial/migrasi-budaya</loc>
+    <loc>https://dawinsight.my.id/artikel/islami/spiritualitas-sosial-di-tengah-krisis.html</loc>
+    <image:image>
+      <image:loc>https://dawinsight.my.id/assets/img/artikel/islami/spiritualitas-sosial-di-tengah-krisis.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://dawinsight.my.id/artikel/sosial/ekonomi-sirkular.html</loc>
+    <image:image>
+      <image:loc>https://dawinsight.my.id/assets/img/artikel/sosial/ekonomi-sirkular.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://dawinsight.my.id/artikel/sosial/aktivisme-pemuda.html</loc>
+    <image:image>
+      <image:loc>https://dawinsight.my.id/assets/img/artikel/sosial/aktivisme-pemuda.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://dawinsight.my.id/artikel/sosial/migrasi-budaya.html</loc>
     <image:image>
       <image:loc>https://dawinsight.my.id/assets/img/artikel/sosial/migrasi-budaya.webp</image:loc>
     </image:image>
   </url>
-
-  <!-- POLITIK -->
   <url>
-    <loc>https://dawinsight.my.id/artikel/politik/ironi-mbg-pendidikan</loc>
+    <loc>https://dawinsight.my.id/artikel/sosial/kesenjangan-ekonomi.html</loc>
     <image:image>
-      <image:loc>https://dawinsight.my.id/assets/img/artikel/politik/ironi-mbg-pendidikan.webp</image:loc>
+      <image:loc>https://dawinsight.my.id/assets/img/artikel/sosial/kesenjangan-ekonomi.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://dawinsight.my.id/artikel/pemikiran/ekologis-filosofi.html</loc>
+    <image:image>
+      <image:loc>https://dawinsight.my.id/assets/img/artikel/pemikiran/ekologis-filosofi.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://dawinsight.my.id/artikel/pemikiran/transhumanisme-teknologi.html</loc>
+    <image:image>
+      <image:loc>https://dawinsight.my.id/assets/img/artikel/pemikiran/transhumnisme-teknologi.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://dawinsight.my.id/artikel/pemikiran/filsafat-existensialisme.html</loc>
+    <image:image>
+      <image:loc>https://dawinsight.my.id/assets/img/artikel/pemikiran/filsafat-existensialisme.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://dawinsight.my.id/artikel/islami/sufisme-spiritualitas-kontemporer.html</loc>
+    <image:image>
+      <image:loc>https://dawinsight.my.id/assets/img/artikel/islami/sufisme-spiritualitas-kontemporer.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://dawinsight.my.id/artikel/islami/islam-dan-kedamaian.html</loc>
+    <image:image>
+      <image:loc>https://dawinsight.my.id/assets/img/artikel/islami/islam-dan-kedamaian.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://dawinsight.my.id/artikel/pemikiran/etika-kontemporer.html</loc>
+    <image:image>
+      <image:loc>https://dawinsight.my.id/assets/img/artikel/pemikiran/etika-kontemporer.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://dawinsight.my.id/artikel/pemikiran/identitas-diri.html</loc>
+    <image:image>
+      <image:loc>https://dawinsight.my.id/assets/img/artikel/pemikiran/identitas-diri.webp</image:loc>
     </image:image>
   </url>
 </urlset>

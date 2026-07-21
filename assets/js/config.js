@@ -110,6 +110,12 @@ export const footerContactData = [
 export const artikelCarouselData = [
   // Islami
   { 
+    title: "Api yang Kehilangan Namanya", 
+    category: "Islami", 
+    href: "/artikel/islami/api-yang-kehilangan-namanya.html",
+    image: "/assets/img/artikel/islami/api-yang-kehilangan-namanya.webp"
+  },
+  { 
     title: "Islam dan Kedamaian", 
     category: "Islami", 
     href: "/artikel/islami/islam-dan-kedamaian.html",
@@ -149,9 +155,9 @@ export const artikelCarouselData = [
   },
   { 
     title: "Feminisme dan Kesetaraan Gender", 
-    category: "Pemikiran", 
-    href: "/artikel/pemikiran/feminisme-kesetaraan-gender.html",
-    image: "/assets/img/artikel/pemikiran/feminisme-kesetaraan-gender.webp"
+    category: "Islami", 
+    href: "/artikel/islami/feminisme-kesetaraan-gender.html",
+    image: "/assets/img/artikel/islami/feminisme-kesetaraan-gender.webp"
   },
   { 
     title: "Filsafat Existensialisme", 
@@ -175,7 +181,7 @@ export const artikelCarouselData = [
     title: "Transhumanisme dan Teknologi", 
     category: "Pemikiran", 
     href: "/artikel/pemikiran/transhumanisme-teknologi.html",
-    image: "/assets/img/artikel/pemikiran/transhumanisme-teknologi.webp"
+    image: "/assets/img/artikel/pemikiran/transhumnisme-teknologi.webp"
   },
   
   // Sosial
