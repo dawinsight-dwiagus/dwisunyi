@@ -567,12 +567,7 @@ window.MIDTRANS_CLIENT_KEY = 'Mid-client-5Pt2HLTUbjJd24VZ'; // UPDATE THIS (dari
     return price.toLocaleString('id-ID');
   }
 
-  // ========== LOAD MIDTRANS SNAP LIBRARY ==========
-  // Load Midtrans Snap library di dalam IIFE
-  const scriptMidtrans = document.createElement('script');
-  scriptMidtrans.src = 'https://app.sandbox.midtrans.com/snap/snap.js'; // Change to prod: https://app.midtrans.com/snap/snap.js
-  scriptMidtrans.setAttribute('data-client-key', MIDTRANS_CLIENT_KEY);
-  document.head.appendChild(scriptMidtrans);
+
 
 })();
 
