@@ -191,18 +191,20 @@
   };
 
   // ===== FORM INPUT ENHANCEMENT =====
-  if (newsletterEmail) {
+  if (newsletterEmail && newsletterForm) {
     newsletterEmail.addEventListener('input', () => {
       // Real-time email validation feedback if needed
       const isValid = isValidEmail(newsletterEmail.value);
       const button = newsletterForm.querySelector('button');
 
-      if (isValid) {
-        button.style.opacity = '1';
-        button.style.pointerEvents = 'auto';
-      } else {
-        button.style.opacity = '0.6';
-        button.style.pointerEvents = 'none';
+      if (button) {
+        if (isValid) {
+          button.style.opacity = '1';
+          button.style.pointerEvents = 'auto';
+        } else {
+          button.style.opacity = '0.6';
+          button.style.pointerEvents = 'none';
+        }
       }
     });
 

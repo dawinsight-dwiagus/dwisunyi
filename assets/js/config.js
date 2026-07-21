@@ -110,6 +110,12 @@ export const footerContactData = [
 export const artikelCarouselData = [
   // Islami
   { 
+    title: "Rumah Nabi, Rumah Kita", 
+    category: "Islami", 
+    href: "/artikel/islami/rumah-nabi-rumah-kita.html",
+    image: "/assets/img/artikel/islami/rumah-nabi-rumah-kita.webp"
+  },
+  { 
     title: "Api yang Kehilangan Namanya", 
     category: "Islami", 
     href: "/artikel/islami/api-yang-kehilangan-namanya.html",

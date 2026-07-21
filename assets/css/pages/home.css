@@ -7,10 +7,8 @@
 .hero-home {
   position: relative;
   padding: 8rem 0;
-  background: linear-gradient(180deg, rgba(15, 23, 42, 0.95), rgba(30, 41, 59, 0.95)), 
-              url('/assets/img/page/home/hero-bg-pattern.webp') center/cover,
-              #0f172a;
-  background-blend-mode: overlay, normal;
+  background: linear-gradient(180deg, rgba(15, 23, 42, 0.95), rgba(30, 41, 59, 0.95)), #0f172a;
+  background-blend-mode: normal;
   min-height: 100vh;
   display: flex;
   align-items: center;
