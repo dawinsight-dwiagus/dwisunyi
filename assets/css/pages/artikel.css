@@ -344,10 +344,6 @@
   line-height: 1.5;
   margin: 0 1.25rem 1rem 1.25rem;
   flex-grow: 1;
-  display: -webkit-box;
-  -webkit-line-clamp: 3;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
 }
 
 .article-card .link-arrow {

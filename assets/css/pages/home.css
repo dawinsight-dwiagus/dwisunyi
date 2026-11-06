@@ -334,10 +334,6 @@
   font-size: 0.82rem;
   line-height: 1.5;
   margin-bottom: 0.75rem;
-  display: -webkit-box;
-  -webkit-line-clamp: 2;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
 }
 
 .featured-card--small .link-arrow {
@@ -497,10 +493,6 @@
   line-height: var(--line-height-normal);
   flex-grow: 1;
   margin: 0 1.25rem;
-  display: -webkit-box;
-  -webkit-line-clamp: 3;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
 }
 
 .article-card .link-arrow {
@@ -731,12 +723,6 @@
   font-weight: var(--font-weight-medium);
   text-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
 }
-  max-width: 500px;
-  margin-left: auto;
-  margin-right: auto;
-  font-weight: var(--font-weight-medium);
-  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
-}
 
 .cta-wrapper .cta-buttons {
   justify-content: center;
@@ -951,7 +937,6 @@
     font-size: 0.84rem;
     line-height: 1.5;
     margin: 0 1rem;
-    -webkit-line-clamp: 3;
   }
 
   .article-card .link-arrow {
