@@ -2,62 +2,13 @@
    HALAMAN TENTANG - BIOGRAFI & PENDIDIKAN
    ======================================== */
 
-/* ==================
-   HERO SECTION
-   ================== */
-.hero-biografi-dwi {
-  background: var(--color-gradient-section-light);
-  padding: 5rem 1rem;
-  min-height: 50vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.hero-content-dwi {
-  text-align: center;
-  animation: fadeInUp 0.8s ease-out;
-}
-
-.hero-content-dwi .hero-subtitle {
-  font-size: var(--font-size-body-sm);
-  font-weight: var(--font-weight-semibold);
-  color: var(--color-accent-cyan);
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
-  margin-bottom: 1rem;
-}
-
-.hero-content-dwi h1 {
-  font-size: clamp(2.5rem, 5vw, 3.5rem);
-  line-height: 1.2;
-  color: var(--color-text-white);
-  margin-bottom: 1.5rem;
-  font-weight: var(--font-weight-bold);
-}
-
-.hero-content-dwi .highlight-text {
-  background: var(--color-gradient-cyan-green);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-}
-
-.hero-content-dwi .hero-tagline {
-  font-size: var(--font-size-body-lg);
-  color: var(--color-text-white);
-  font-style: italic;
-  font-weight: var(--font-weight-medium);
-  line-height: var(--line-height-relaxed);
-  max-width: 600px;
-  margin: 0 auto;
-}
+/* Hero styling inherited from components/hero.css (.hero-biografi-dwi) */
 
 /* ==================
    TENTANG SAYA
    ================== */
 .tentang-saya-section {
-  padding: 4rem 1rem;
+  padding: clamp(1.75rem, 3.5vw, 2.5rem) 1rem;
   background: linear-gradient(180deg, transparent, var(--color-gradient-section-faint));
 }
 
@@ -65,7 +16,7 @@
   max-width: 1000px;
   margin: 0 auto;
   display: flex;
-  gap: 3rem;
+  gap: clamp(1.5rem, 3vw, 2.25rem);
   align-items: flex-start;
 }
 
@@ -150,14 +101,14 @@
    BIODATA INFO
    ================== */
 .biodata-dwi-section {
-  padding: 4rem 1rem;
+  padding: clamp(1.75rem, 3.5vw, 2.5rem) 1rem;
 }
 
 .biodata-dwi-section h2 {
   font-size: var(--font-size-h2);
   color: var(--color-text-white);
   text-align: center;
-  margin-bottom: 3rem;
+  margin-bottom: 1.25rem;
   font-weight: var(--font-weight-bold);
 }
 
@@ -166,12 +117,12 @@
   margin: 0 auto;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 2rem;
+  gap: 1.25rem;
 }
 
 .biodata-item {
   background: linear-gradient(135deg, rgba(6, 182, 212, 0.1), rgba(22, 219, 147, 0.05));
-  padding: 2rem;
+  padding: 1.25rem 1rem;
   border-radius: var(--radius-xl);
   border: 1px solid var(--color-border-light);
   text-align: center;
@@ -194,7 +145,7 @@
 .biodata-item:hover {
   background: linear-gradient(135deg, rgba(6, 182, 212, 0.15), rgba(22, 219, 147, 0.1));
   border-color: var(--color-border-accent);
-  transform: translateY(-4px);
+  transform: translateY(-3px);
 }
 
 .biodata-item h3 {
@@ -203,11 +154,11 @@
   color: var(--color-accent-cyan);
   text-transform: uppercase;
   letter-spacing: 0.05em;
-  margin-bottom: 0.8rem;
+  margin-bottom: 0.5rem;
 }
 
 .biodata-item p {
-  font-size: var(--font-size-body);
+  font-size: var(--font-size-body-sm);
   color: var(--color-text-white);
   line-height: var(--line-height-normal);
   margin: 0;
@@ -228,7 +179,7 @@
    PENDIDIKAN LIST
    ================== */
 .pendidikan-section {
-  padding: 4rem 1rem;
+  padding: clamp(1.75rem, 3.5vw, 2.5rem) 1rem;
   background: linear-gradient(180deg, transparent, var(--color-gradient-section-faint));
 }
 
@@ -236,7 +187,7 @@
   font-size: var(--font-size-h2);
   color: var(--color-text-white);
   text-align: center;
-  margin-bottom: 3rem;
+  margin-bottom: 1.25rem;
   font-weight: var(--font-weight-bold);
 }
 
@@ -244,7 +195,7 @@
   max-width: 800px;
   margin: 0 auto;
   position: relative;
-  padding: 1rem 0;
+  padding: 0.75rem 0;
 }
 
 .pendidikan-list::before {
@@ -261,8 +212,8 @@
 .pendidikan-item {
   display: grid;
   grid-template-columns: 50% 50%;
-  gap: 2rem;
-  margin-bottom: 2rem;
+  gap: 1.5rem;
+  margin-bottom: 1.5rem;
   position: relative;
   animation: fadeInUp 0.6s ease-out forwards;
 }
@@ -277,12 +228,12 @@
 
 .pendidikan-item:nth-child(odd) {
   text-align: right;
-  padding-right: 2rem;
+  padding-right: 1.5rem;
 }
 
 .pendidikan-item:nth-child(even) {
   text-align: left;
-  padding-left: 2rem;
+  padding-left: 1.5rem;
   grid-column: 2;
 }
 
@@ -290,19 +241,19 @@
   position: absolute;
   left: 50%;
   top: 8px;
-  width: 16px;
-  height: 16px;
+  width: 14px;
+  height: 14px;
   background: var(--color-accent-cyan);
-  border: 4px solid var(--color-bg-darkest);
+  border: 3px solid var(--color-bg-darkest);
   border-radius: 50%;
   transform: translateX(-50%);
-  box-shadow: 0 0 0 8px rgba(6, 182, 212, 0.2);
+  box-shadow: 0 0 0 6px rgba(6, 182, 212, 0.2);
 }
 
 .pendidikan-content h3 {
-  font-size: var(--font-size-h4);
+  font-size: var(--font-size-body);
   color: var(--color-text-white);
-  margin-bottom: 0.4rem;
+  margin-bottom: 0.25rem;
   font-weight: var(--font-weight-semibold);
 }
 
@@ -317,22 +268,22 @@
    PENGALAMAN ORGANISASI
    ================== */
 .pengalaman-section {
-  padding: 4rem 1rem;
+  padding: clamp(1.75rem, 3.5vw, 2.5rem) 1rem;
 }
 
 .pengalaman-section .section-title {
   font-size: var(--font-size-h2);
   color: var(--color-text-white);
   text-align: center;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.35rem;
   font-weight: var(--font-weight-bold);
 }
 
 .section-subtitle {
   text-align: center;
   color: var(--color-text-muted);
-  font-size: var(--font-size-body);
-  margin-bottom: 3rem;
+  font-size: var(--font-size-body-sm);
+  margin-bottom: 1.25rem;
   display: block;
 }
 
@@ -340,13 +291,13 @@
   max-width: 1200px;
   margin: 0 auto;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-  gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: clamp(0.85rem, 1.5vw, 1.25rem);
 }
 
 .pengalaman-card {
   background: linear-gradient(135deg, rgba(6, 182, 212, 0.1), rgba(22, 219, 147, 0.05));
-  padding: 2rem;
+  padding: 1.25rem 1rem;
   border-radius: var(--radius-xl);
   border: 1px solid var(--color-border-light);
   transition: var(--transition-normal);
@@ -376,21 +327,21 @@
 .pengalaman-card:hover {
   background: linear-gradient(135deg, rgba(6, 182, 212, 0.15), rgba(22, 219, 147, 0.1));
   border-color: var(--color-border-accent);
-  transform: translateY(-6px);
+  transform: translateY(-4px);
 }
 
 .card-title {
-  font-size: var(--font-size-h4);
+  font-size: var(--font-size-body);
   color: var(--color-text-white);
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.35rem;
   font-weight: var(--font-weight-semibold);
 }
 
 .pengalaman-card .position {
-  font-size: var(--font-size-body-sm);
+  font-size: var(--font-size-caption);
   color: var(--color-accent-green);
   font-weight: var(--font-weight-medium);
-  margin-bottom: 0.8rem;
+  margin-bottom: 0.5rem;
 }
 
 .pengalaman-card .description {
@@ -404,7 +355,7 @@
    FILOSOFI PENULISAN
    ================== */
 .filosofi-section {
-  padding: 4rem 1rem;
+  padding: clamp(1.75rem, 3.5vw, 2.5rem) 1rem;
   background: linear-gradient(180deg, transparent, var(--color-gradient-section-faint));
 }
 
@@ -412,7 +363,7 @@
   font-size: var(--font-size-h2);
   color: var(--color-text-white);
   text-align: center;
-  margin-bottom: 3rem;
+  margin-bottom: 1.25rem;
   font-weight: var(--font-weight-bold);
 }
 
@@ -421,12 +372,12 @@
   margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr;
-  gap: 2rem;
+  gap: 1rem;
 }
 
 .filosofi-point {
   background: linear-gradient(135deg, rgba(6, 182, 212, 0.1), rgba(22, 219, 147, 0.05));
-  padding: 2rem;
+  padding: 1.25rem 1rem;
   border-radius: var(--radius-xl);
   border-left: 4px solid var(--color-accent-cyan);
   transition: var(--transition-normal);
@@ -448,129 +399,65 @@
 .filosofi-point:hover {
   background: linear-gradient(135deg, rgba(6, 182, 212, 0.15), rgba(22, 219, 147, 0.1));
   border-left-color: var(--color-accent-green);
-  transform: translateX(8px);
+  transform: translateX(4px);
 }
 
 .filosofi-point h3 {
-  font-size: var(--font-size-h4);
+  font-size: var(--font-size-body);
   color: var(--color-text-white);
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
   font-weight: var(--font-weight-semibold);
   display: flex;
   align-items: center;
-  gap: 0.8rem;
+  gap: 0.65rem;
 }
 
 .filosofi-point i {
   color: var(--color-accent-cyan);
-  font-size: var(--font-size-h4);
+  font-size: var(--font-size-body);
 }
 
 .filosofi-point p {
   font-size: var(--font-size-body-sm);
   color: var(--color-text-secondary);
-  line-height: var(--line-height-relaxed);
+  line-height: var(--line-height-normal);
   margin: 0;
 }
 
-/* ==================
-   CTA FINAL SECTION
-   ================== */
-.cta-final-biografi {
-  padding: 3.5rem 1rem;
-  background: var(--color-gradient-section-medium);
-  text-align: center;
-  border-top: 1px solid var(--color-border-light);
-  border-bottom: 1px solid var(--color-border-light);
-}
-
-.cta-final-biografi h2 {
-  font-size: var(--font-size-h2);
-  color: var(--color-text-white);
-  margin-bottom: 1rem;
-  font-weight: var(--font-weight-bold);
-  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-}
-
-.cta-final-biografi p {
-  font-size: var(--font-size-body);
-  color: var(--color-text-white);
-  margin-bottom: 2rem;
-  max-width: 600px;
-  margin-left: auto;
-  margin-right: auto;
-  font-weight: var(--font-weight-medium);
-  line-height: var(--line-height-normal);
-}
-
-.cta-buttons-biografi {
-  display: flex;
-  gap: 1rem;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-
-.cta-buttons-biografi .btn {
-  padding: 0.95rem 2rem;
-  font-size: var(--font-size-body);
-  border-radius: var(--radius-md);
-  font-weight: var(--font-weight-semibold);
-  transition: var(--transition-normal);
-  text-decoration: none;
-  display: inline-block;
-  border: none;
-  cursor: pointer;
-}
-
-.cta-buttons-biografi .btn-primary {
-  background: var(--color-gradient-cyan-green);
-  color: var(--color-bg-darkest);
-}
-
-.cta-buttons-biografi .btn-primary:hover {
-  transform: translateY(-2px);
-  box-shadow: var(--shadow-glow-cyan);
-}
-
-.cta-buttons-biografi .btn-secondary {
-  background: transparent;
-  color: var(--color-text-white);
-  border: 2px solid rgba(255, 255, 255, 0.5);
-}
-
-.cta-buttons-biografi .btn-secondary:hover {
-  border-color: var(--color-text-white);
-  background: rgba(255, 255, 255, 0.1);
-  transform: translateY(-2px);
-}
+/* Note: .cta-final-biografi is now SSOT in shared-sections.css */
 
 /* ==================
-   ANIMATIONS (Using Standard Library)
-   ================== */
-/* All animations in components-standard.css: fadeInUp, fadeInLeft, fadeInRight, slideInUp, scaleIn, pulse */
-/* Page specific animations are now imported from base/components-standard.css */
-
-/* ==================
-   RESPONSIVE DESIGN
+   RESPONSIVE DESIGN (Audited: Neat & Compact)
    ================== */
 @media (max-width: 768px) {
-  .hero-biografi-dwi h1 {
-    font-size: 2.2rem;
-  }
-
-  .hero-content-dwi .hero-tagline {
-    font-size: 1.1rem;
+  .tentang-saya-section,
+  .biodata-dwi-section,
+  .pendidikan-section,
+  .pengalaman-section,
+  .filosofi-section {
+    padding: 1.85rem 0.85rem;
   }
 
   .tentang-wrapper {
     flex-direction: column;
-    gap: 2rem;
+    gap: 1.5rem;
+    align-items: center;
+    text-align: center;
   }
 
   .tentang-image {
     width: 100%;
-    max-width: 350px;
+    max-width: 260px;
     margin: 0 auto;
+  }
+
+  .tentang-content h2 {
+    margin-bottom: 0.65rem;
+  }
+
+  .tentang-list {
+    text-align: left;
+    padding-left: 1.5rem;
   }
 
   .pendidikan-list::before {
@@ -579,14 +466,14 @@
 
   .pendidikan-item {
     grid-template-columns: 1fr;
-    gap: 1rem;
-    padding: 1rem !important;
+    gap: 0.75rem;
+    padding: 0.85rem !important;
   }
 
   .pendidikan-item:nth-child(odd),
   .pendidikan-item:nth-child(even) {
     text-align: left;
-    padding-left: 2.5rem !important;
+    padding-left: 2rem !important;
   }
 
   .pendidikan-dot {
@@ -596,70 +483,60 @@
 
   .pengalaman-grid {
     grid-template-columns: 1fr;
+    gap: 0.85rem;
   }
 
   .filosofi-content {
     grid-template-columns: 1fr;
-  }
-
-  .cta-buttons-biografi {
-    flex-direction: column;
-    gap: 1rem;
-  }
-
-  .cta-buttons-biografi .btn {
-    width: 100%;
+    gap: 0.85rem;
   }
 }
 
 @media (max-width: 480px) {
-  .hero-biografi-dwi {
-    padding: 3rem 1rem;
-    min-height: 40vh;
+  .tentang-saya-section,
+  .biodata-dwi-section,
+  .pendidikan-section,
+  .pengalaman-section,
+  .filosofi-section {
+    padding: 1.35rem 0.65rem;
   }
 
-  .hero-biografi-dwi h1 {
-    font-size: 1.8rem;
-  }
-
-  .hero-content-dwi .hero-tagline {
-    font-size: 1rem;
-  }
-
-  .tentang-content h2 {
-    font-size: 1.6rem;
+  .tentang-content h2,
+  .biodata-dwi-section h2,
+  .pendidikan-section .section-title,
+  .pengalaman-section .section-title,
+  .filosofi-section h2 {
+    font-size: 1.22rem;
+    margin-bottom: 0.85rem;
   }
 
   .tentang-content p {
-    font-size: 0.95rem;
-  }
-
-  .biodata-dwi-section h2 {
-    font-size: 1.8rem;
+    font-size: 0.84rem;
+    line-height: 1.48;
   }
 
   .biodata-info {
     grid-template-columns: 1fr;
-    gap: 1.5rem;
+    gap: 0.75rem;
   }
 
-  .pendidikan-section .section-title {
-    font-size: 1.8rem;
+  .biodata-item {
+    padding: 1rem 0.85rem;
   }
 
-  .pengalaman-section .section-title {
-    font-size: 1.8rem;
+  .pengalaman-card,
+  .filosofi-point {
+    padding: 1rem 0.85rem;
   }
 
-  .filosofi-section h2 {
-    font-size: 1.8rem;
-  }
-
-  .cta-final-biografi h2 {
-    font-size: 1.5rem;
-  }
-
-  .cta-final-biografi p {
+  .card-title,
+  .filosofi-point h3 {
     font-size: 0.95rem;
+  }
+
+  .pengalaman-card .description,
+  .filosofi-point p {
+    font-size: 0.8rem;
+    line-height: 1.42;
   }
 }

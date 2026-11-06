@@ -277,50 +277,82 @@ small {
 }
 
 /* ==================
-   FORM ELEMENTS
+   FORM ELEMENTS (SSOT - Dark Islamic Theme)
    ================== */
 
 .form-group {
-  margin-bottom: var(--spacing-lg);
+  margin-bottom: 1.15rem;
+  display: flex;
+  flex-direction: column;
 }
 
-.form-label {
+.form-label,
+label {
   display: block;
   font-size: var(--font-size-body-sm);
   font-weight: var(--font-weight-semibold);
   color: var(--color-text-white);
-  margin-bottom: var(--spacing-sm);
+  margin-bottom: 0.35rem;
+}
+
+.required {
+  color: var(--color-accent-cyan);
+  font-weight: 700;
+  margin-left: 0.15rem;
 }
 
 .form-input,
 .form-textarea,
-.form-select {
+.form-select,
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
   width: 100%;
-  padding: 0.8rem 1rem;
+  padding: 0.65rem 0.85rem;
   font-size: var(--font-size-body-sm);
-  background: var(--color-text-white);
-  color: var(--color-bg-dark);
-  border: 2px solid var(--color-accent-cyan);
+  background: rgba(15, 23, 42, 0.65);
+  color: var(--color-text-white);
+  border: 1.5px solid var(--color-border-medium);
   border-radius: var(--radius-md);
   font-family: var(--font-family-primary);
   transition: var(--transition-fast);
+  outline: none;
+  box-sizing: border-box;
 }
 
 .form-input:focus,
 .form-textarea:focus,
-.form-select:focus {
+.form-select:focus,
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="tel"]:focus,
+textarea:focus {
   outline: none;
-  border-color: var(--color-accent-green);
-  box-shadow: 0 0 0 3px rgba(6, 182, 212, 0.1);
+  border-color: var(--color-accent-cyan);
+  background: rgba(15, 23, 42, 0.95);
+  box-shadow: 0 0 10px rgba(6, 182, 212, 0.2);
 }
 
-.form-input::placeholder {
-  color: var(--color-bg-darker);
+.form-input::placeholder,
+.form-textarea::placeholder,
+input::placeholder,
+textarea::placeholder {
+  color: var(--color-text-muted);
+}
+
+.form-card {
+  background: rgba(30, 41, 59, 0.6);
+  backdrop-filter: blur(12px);
+  border: 1px solid var(--color-border-light);
+  border-radius: var(--radius-xl);
+  padding: clamp(1.5rem, 3.5vw, 2.25rem);
+  box-shadow: 0 12px 35px rgba(0, 0, 0, 0.25);
 }
 
 .form-validation {
   font-size: var(--font-size-caption);
-  margin-top: 0.4rem;
+  margin-top: 0.35rem;
   display: flex;
   align-items: center;
   gap: 0.4rem;

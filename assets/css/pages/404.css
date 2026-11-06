@@ -1,0 +1,58 @@
+/* ========== 404 NOT FOUND PAGE STYLES ========== */
+.not-found-section {
+  padding: clamp(3rem, 6vw, 5rem) 1rem;
+  min-height: calc(100vh - 450px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background: linear-gradient(180deg, var(--color-bg-darker), var(--color-bg-darkest));
+}
+
+.not-found-content {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.error-code {
+  display: block;
+  font-size: clamp(4rem, 12vw, 7rem);
+  font-weight: 800;
+  line-height: 1;
+  background: var(--color-gradient-cyan-green);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin-bottom: 0.5rem;
+  letter-spacing: -2px;
+}
+
+.not-found-content h1 {
+  font-size: var(--font-size-h2);
+  color: var(--color-text-white);
+  margin-bottom: 0.75rem;
+  font-weight: var(--font-weight-bold);
+}
+
+.not-found-content p {
+  font-size: var(--font-size-body);
+  color: var(--color-text-secondary);
+  line-height: var(--line-height-normal);
+  margin-bottom: 1.75rem;
+}
+
+.not-found-actions {
+  display: flex;
+  gap: 0.75rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 480px) {
+  .not-found-actions {
+    flex-direction: column;
+  }
+  .not-found-actions .btn {
+    width: 100%;
+  }
+}

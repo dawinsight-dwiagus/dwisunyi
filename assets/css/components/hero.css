@@ -3,7 +3,7 @@
 /* Hero langsung setelah header, tidak perlu breadcrumb */
 
 .hero {
-  padding: clamp(4rem, 8vw, 6rem) 0;
+  padding: clamp(2.5rem, 5vw, 3.75rem) 0;
   background: linear-gradient(135deg, var(--color-accent-green) 0%, var(--color-accent-cyan) 100%);
   color: var(--color-text-white);
   text-align: center;
@@ -299,6 +299,78 @@
 
 .hero-artikel .category-link:hover {
   opacity: 0.8;
+}
+
+/* ========== SUBPAGE HERO COMPONENT (SSOT) ========== */
+.subpage-hero,
+.kontak-hero,
+.portofolio-hero,
+.hero-biografi-dwi,
+.ebook-hero,
+.detail-hero,
+.organisasi-hero {
+  background: var(--color-gradient-section-light);
+  padding: clamp(2rem, 3.5vw, 2.75rem) 1rem;
+  min-height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.subpage-hero .hero-content,
+.kontak-hero .hero-content,
+.portofolio-hero .hero-content,
+.hero-biografi-dwi .hero-content-dwi,
+.ebook-hero .hero-content,
+.detail-hero .hero-content,
+.organisasi-hero .hero-content {
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 1;
+}
+
+.subpage-hero h1,
+.subpage-hero .section-title,
+.kontak-hero h1,
+.kontak-hero .section-title,
+.portofolio-hero h1,
+.portofolio-hero .section-title,
+.hero-biografi-dwi h1,
+.ebook-hero h1,
+.detail-hero h1,
+.organisasi-hero h1,
+.organisasi-hero .section-title {
+  font-size: clamp(1.75rem, 3.8vw, 2.5rem);
+  line-height: 1.2;
+  color: var(--color-text-white);
+  margin-bottom: 0.45rem;
+  font-weight: var(--font-weight-bold);
+  background: var(--color-gradient-cyan-green);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.subpage-hero .hero-subtitle,
+.kontak-hero .hero-subtitle,
+.portofolio-hero .hero-subtitle,
+.hero-biografi-dwi .hero-subtitle,
+.hero-biografi-dwi .hero-tagline,
+.ebook-hero .hero-subtitle,
+.detail-hero .hero-subtitle,
+.organisasi-hero .hero-subtitle,
+.portofolio-hero .hero-description,
+.organisasi-hero .hero-description {
+  font-size: var(--font-size-body-sm);
+  color: var(--color-text-secondary);
+  line-height: var(--line-height-normal);
+  max-width: 650px;
+  margin: 0 auto;
 }
 
 /* ========== RESPONSIVE DESIGN ========== */

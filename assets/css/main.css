@@ -18,7 +18,3 @@
 @import url('components/custom-font.css');
 @import url('components/button.css');
 @import url('components/hero.css');
-
-/* Pages */
-@import url('pages/home.css');
-@import url('pages/tentang.css');

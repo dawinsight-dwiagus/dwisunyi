@@ -49,7 +49,7 @@ header {
   background-color: var(--color-bg-dark);
   box-shadow: var(--shadow-md);
   z-index: 999;
-  padding: clamp(0.8rem, 2vw, 1.2rem) 0;
+  padding: clamp(0.6rem, 1.5vw, 0.85rem) 0;
   transition: var(--transition-normal), transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
   border-bottom: 1px solid var(--color-border-light);
   transform: translateY(0);
@@ -60,7 +60,7 @@ header.nav-hidden {
 }
 
 header.scroll {
-  padding: clamp(0.6rem, 1.5vw, 0.8rem) 0;
+  padding: clamp(0.45rem, 1vw, 0.65rem) 0;
   box-shadow: var(--shadow-lg);
 }
 

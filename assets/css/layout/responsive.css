@@ -105,97 +105,67 @@
   }
 
   /* Footer */
-  .link-services-wrapper { gap: clamp(2rem, 3.5vw, 2.5rem); padding: 0; }
+  .link-services-wrapper { gap: 1.15rem; padding: 0; }
   .link-section, .services-section { min-width: auto; max-width: none; margin: 0; }
 
   .footer-grid {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto auto;
-    gap: clamp(2rem, 4vw, 2.5rem);
+    gap: 1.25rem;
     padding: 0;
-    width: 90%;
+    width: 92%;
     max-width: 1200px;
-    margin-bottom: 2.5rem;
-  }
-
-  .footer-datetime {
-    flex-direction: row;
-    max-width: 100%;
-    margin: 0;
-    height: 70px;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0 15px;
-  }
-  
-  #datetime {
-    width: 35%;
-    text-align: left;
-    justify-content: flex-start;
-    gap: 0.3rem;
-    font-size: clamp(0.65rem, 1.5vw, 0.75rem);
-    line-height: 1.1;
-    margin: 0;
-  }
-  #datetime i {
-    width: 12px;
-    font-size: clamp(0.65rem, 1.5vw, 0.75rem);
-  }
-
-  #separator {
-    width: 1px;
-    height: 20px;
-    background: linear-gradient(to bottom, transparent, var(--color-accent-cyan), transparent);
-    margin: 0 0 0 1rem;
-    opacity: 0.8;
-  }
-
-  #info {
-    width: 60%;
-    text-align: center;
-    flex-direction: column;
-    gap: 0.05rem;
-    justify-content: center;
-    font-size: clamp(0.65rem, 1.5vw, 0.75rem);
-    line-height: 1.1;
-    max-width: unset;
-    margin: 0;
-    padding: 0;
+    margin-bottom: 1.25rem;
   }
 
   .footer-deskripsi {
-    max-width: 450px;
+    max-width: 100%;
     text-align: left;
-    line-height: 1.6;
+    line-height: 1.48;
   }
 
-  .artikel-carousel { height: clamp(240px, 40vw, 300px); }
-  .carousel-slide-content { padding: clamp(1rem, 3vw, 1.5rem); padding-bottom: clamp(4.5rem, 14vw, 5rem); gap: 0.4rem; }
-  .carousel-slide-category { font-size: clamp(0.75rem, 1.2vw, 0.85rem); }
-  .carousel-slide-title { font-size: clamp(0.95rem, 1.8vw, 1.05rem); }
+  .artikel-carousel { height: 200px; }
+  .carousel-slide-content { padding: 0.65rem 0.8rem; padding-bottom: 2.5rem; gap: 0.2rem; }
+  .carousel-slide-category { font-size: 0.7rem; }
+  .carousel-slide-title { font-size: 0.88rem; }
 
   .footer-kontak li {
-    line-height: 1.8;
-    gap: 1rem;
-    font-size: clamp(0.9rem, 1.5vw, 1rem);
+    line-height: 1.4;
+    gap: 0.55rem;
+    font-size: 0.82rem;
   }
-  .footer-sosmed a { width: 35px; height: 35px; }
+  .footer-sosmed a { width: 32px; height: 32px; font-size: 0.8rem; }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 860px) {
+  /* Footer 4-Kolom Padat & Rapi untuk Tablet Lebar & Laptop */
+  .footer-grid {
+    grid-template-columns: 1.3fr 0.95fr 1.05fr 1.3fr;
+    grid-template-rows: auto;
+    gap: 1.25rem;
+    width: 92%;
+    max-width: 1200px;
+    margin-bottom: 1.5rem;
+    align-items: start;
+  }
+  .link-services-wrapper { gap: 1.15rem; }
+  .artikel-carousel { height: 205px; }
+  .footer-kontak li { line-height: 1.4; }
+}
+
+@media (min-width: 1024px) {
   /* Header */
   .nav-desktop-list { gap: clamp(1.2rem, 2.2vw, 1.8rem); }
 
   /* Footer */
-  .footer-grid { gap: 3rem; width: 90%; max-width: 1200px; }
-  .footer-datetime { padding: 0.5rem 1.8rem; }
-  #datetime { gap: 0.4rem; }
-  #info { gap: 0.1rem; }
-  .artikel-carousel { height: clamp(250px, 35vw, 320px); }
-  .carousel-slide-content { padding-bottom: clamp(4.5rem, 12vw, 5rem); gap: 0.5rem; }
-  .carousel-slide-category { font-size: 0.8rem; letter-spacing: 0.7px; }
-  .link-services-wrapper { gap: 2.5rem; }
-  .footer-kontak li { line-height: 1.8; }
+  .footer-grid {
+    grid-template-columns: 1.35fr 1fr 1.1fr 1.35fr;
+    gap: 1.5rem;
+    width: 90%;
+    max-width: 1200px;
+    margin-bottom: 1.5rem;
+  }
+  .artikel-carousel { height: 210px; }
 }
 
 @media (min-width: 1200px) {
@@ -203,27 +173,36 @@
   .nav-desktop-list { gap: 2rem; }
 
   /* Footer */
-  .footer-grid { gap: 3.5rem; width: 90%; max-width: 1200px; }
-  .footer-deskripsi { font-size: 1.05rem; max-width: 500px; }
-  .footer-judul { font-size: 1.2rem; }
-  .footer-map { height: 220px; }
-  .footer-datetime { padding: 0.6rem 2rem; }
-  .link-services-wrapper { gap: 3rem; }
+  .footer-grid {
+    gap: 1.75rem;
+    width: 90%;
+    max-width: 1200px;
+    margin-bottom: 1.75rem;
+  }
+  .footer-deskripsi { font-size: 0.86rem; max-width: 100%; }
+  .footer-judul { font-size: 1.025rem; }
+  .artikel-carousel { height: 215px; }
+  .link-services-wrapper { gap: 1.35rem; }
 }
 
 /* ============= PENYESUAIAN KHUSUS MOBILE KECIL (<480px) ========== */
 @media (max-width: 480px) {
   /* Footer */
-  .link-services-wrapper { gap: clamp(0.8rem, 2.5vw, 1rem); padding: 0; }
-  .footer-judul { font-size: clamp(0.9rem, 2.5vw, 1rem); }
-  .footer-link a { font-size: clamp(0.85rem, 1.5vw, 0.95rem); }
-  .footer-kontak li {
-    font-size: clamp(0.85rem, 1.5vw, 0.95rem);
-    gap: 0.6rem;
-    line-height: 1.6;
+  .footer-grid {
+    gap: 1.25rem;
+    margin-bottom: 1.25rem;
   }
-  .footer-map { height: clamp(200px, 42vw, 240px); }
-  .footer-datetime { padding: 0.4rem 0.8rem; gap: 0.2rem; }
-  #datetime { gap: 0.1rem; line-height: 1.1; }
-  #info { gap: 0.05rem; padding: 0; }
+  .link-services-wrapper { gap: 0.75rem; padding: 0; }
+  .footer-judul { font-size: 0.95rem; margin-bottom: 0.5rem; padding-bottom: 0.25rem; }
+  .footer-link a { font-size: 0.82rem; padding: 0.15rem 0; }
+  .footer-kontak li {
+    font-size: 0.82rem;
+    gap: 0.5rem;
+    line-height: 1.4;
+    margin-bottom: 0.35rem;
+  }
+  .footer-datetime { padding: 0.45rem 0.65rem; gap: 0.3rem; }
+  #datetime { font-size: 0.68rem; gap: 0.3rem; }
+  #info { font-size: 0.68rem; }
+  .artikel-carousel { height: 195px; }
 }

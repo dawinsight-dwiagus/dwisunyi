@@ -11,16 +11,16 @@
 .comparison-section > .container > h2::after {
   content: '';
   display: block;
-  width: 80px;
-  height: 4px;
+  width: 60px;
+  height: 3px;
   background: var(--color-gradient-cyan-light);
-  margin: 2rem auto 1.5rem;
+  margin: 1rem auto 1.25rem;
   border-radius: 2px;
 }
 
 /* ========== STANDARD SECTION PADDING ========== */
 .standard-section {
-  padding: clamp(4rem, 8vw, 6rem) 0;
+  padding: clamp(2.25rem, 4.5vw, 3.5rem) 0;
 }
 
 .standard-section-light {
@@ -38,23 +38,23 @@
 /* ========== SECTION PADDING VARIANTS ========== */
 /* Responsive padding untuk berbagai section types */
 .section-large-padding {
-  padding: clamp(5rem, 10vw, 7rem) 0;
+  padding: clamp(3rem, 5.5vw, 4.25rem) 0;
 }
 
 .section-medium-padding {
-  padding: clamp(3rem, 6vw, 4rem) 0;
-}
-
-.section-small-padding {
   padding: clamp(2rem, 4vw, 3rem) 0;
 }
 
+.section-small-padding {
+  padding: clamp(1.25rem, 2.5vw, 2rem) 0;
+}
+
 .section-top-padding {
-  padding-top: clamp(3rem, 6vw, 5rem);
+  padding-top: clamp(2rem, 4vw, 3.25rem);
 }
 
 .section-bottom-padding {
-  padding-bottom: clamp(3rem, 6vw, 5rem);
+  padding-bottom: clamp(2rem, 4vw, 3.25rem);
 }
 
 /* ========== SHARED CARD STYLES ========== */
@@ -163,11 +163,11 @@
   text-align: center;
   color: var(--color-text-secondary);
   font-size: var(--font-size-body);
-  margin-bottom: clamp(2.5rem, 4vw, 3.5rem);
+  margin-bottom: clamp(1.25rem, 2.5vw, 2rem);
   max-width: 650px;
   margin-left: auto;
   margin-right: auto;
-  line-height: var(--line-height-relaxed);
+  line-height: var(--line-height-normal);
 }
 
 /* ========== SHARED BUTTON CONTAINER ========== */
@@ -298,3 +298,191 @@
 [class*="package"]:nth-child(4) { animation-delay: 0.4s; }
 [class*="package"]:nth-child(5) { animation-delay: 0.5s; }
 [class*="package"]:nth-child(6) { animation-delay: 0.6s; }
+
+/* ========== SSOT: FAQ ACCORDION COMPONENT ========== */
+/* Reusable across index.html (.faq-section) and kontak/index.html (.kontak-faq) */
+.faq-section,
+.kontak-faq {
+  padding: clamp(2rem, 3.5vw, 2.75rem) 0;
+  background: linear-gradient(180deg, var(--color-bg-darker), var(--color-bg-darkest));
+}
+
+.faq-section h2,
+.kontak-faq h2 {
+  text-align: center;
+  font-size: var(--font-size-h2);
+  color: var(--color-text-white);
+  margin-bottom: 1.25rem;
+  font-weight: var(--font-weight-bold);
+  letter-spacing: -0.01em;
+}
+
+.faq-grid,
+.faq-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 0.65rem;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.faq-item {
+  background: rgba(30, 41, 59, 0.35);
+  border: 1px solid var(--color-border-light);
+  border-radius: var(--radius-md);
+  padding: 0.75rem 1rem;
+  cursor: pointer;
+  transition: var(--transition-normal);
+}
+
+.faq-item:hover {
+  border-color: var(--color-border-accent);
+  background: rgba(30, 41, 59, 0.55);
+}
+
+.faq-item[open] {
+  background: rgba(6, 182, 212, 0.05);
+  border-color: var(--color-border-accent);
+}
+
+.faq-question,
+.faq-item summary {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.75rem;
+  color: var(--color-text-white);
+  font-weight: 600;
+  font-size: 0.9rem;
+  list-style: none;
+  user-select: none;
+  cursor: pointer;
+}
+
+.faq-question::-webkit-details-marker,
+.faq-item summary::-webkit-details-marker {
+  display: none;
+}
+
+.faq-icon,
+.faq-item summary i {
+  font-size: 0.8rem;
+  color: var(--color-accent-cyan);
+  transition: var(--transition-normal);
+  flex-shrink: 0;
+}
+
+.faq-item[open] .faq-icon,
+.faq-item[open] summary i {
+  transform: rotate(180deg);
+}
+
+.faq-answer {
+  margin-top: 0.55rem;
+  color: var(--color-text-secondary);
+  line-height: var(--line-height-normal);
+  font-size: 0.82rem;
+}
+
+.faq-answer p {
+  margin-bottom: 0.35rem;
+  font-size: 0.82rem;
+  line-height: 1.45;
+}
+
+.faq-answer p:last-child {
+  margin-bottom: 0;
+}
+
+/* ========== SSOT: FINAL CTA COMPONENT ========== */
+/* Reusable across index.html (.cta-final-section), kontak (.kontak-cta), portofolio (.portofolio-cta), tentang (.cta-final-biografi) */
+.cta-final-section,
+.kontak-cta,
+.portofolio-cta,
+.cta-final-biografi {
+  padding: clamp(2rem, 3.5vw, 2.75rem) 1rem;
+  background: var(--color-gradient-section-accent);
+  border-top: 1px solid var(--color-border-accent);
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.cta-final-section h2,
+.kontak-cta h2,
+.portofolio-cta h2,
+.cta-final-biografi h2 {
+  font-size: var(--font-size-h2);
+  color: var(--color-text-white);
+  margin-bottom: 0.4rem;
+  font-weight: var(--font-weight-bold);
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.cta-final-section p,
+.kontak-cta p,
+.portofolio-cta p,
+.cta-final-biografi p {
+  font-size: var(--font-size-body-sm);
+  color: var(--color-text-white);
+  margin-bottom: 1.15rem;
+  max-width: 550px;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: var(--font-weight-medium);
+  opacity: 0.95;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  line-height: 1.45;
+}
+
+.cta-wrapper,
+.cta-content {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.cta-buttons,
+.cta-buttons-biografi {
+  display: flex;
+  gap: 0.75rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 480px) {
+  .faq-section,
+  .kontak-faq {
+    padding: 1.35rem 0;
+  }
+  .faq-grid,
+  .faq-list {
+    grid-template-columns: 1fr;
+    gap: 0.55rem;
+  }
+  .faq-item {
+    padding: 0.65rem 0.85rem;
+  }
+  .faq-question,
+  .faq-item summary {
+    font-size: 0.85rem;
+  }
+  .faq-answer p {
+    font-size: 0.78rem;
+  }
+  .cta-final-section,
+  .kontak-cta,
+  .portofolio-cta,
+  .cta-final-biografi {
+    padding: 1.5rem 0.75rem;
+  }
+  .cta-buttons,
+  .cta-buttons-biografi {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  .cta-buttons .btn,
+  .cta-buttons a,
+  .cta-buttons-biografi .btn {
+    width: 100%;
+  }
+}
