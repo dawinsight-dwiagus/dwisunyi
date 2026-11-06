@@ -109,115 +109,121 @@ export const footerContactData = [
 // =========================
 export const artikelCarouselData = [
   // Islami
-  { 
-    title: "Rumah Nabi, Rumah Kita", 
-    category: "Islami", 
+  {
+    title: "Jalan Pulang Sang Jiwa",
+    category: "Islami",
+    href: "/artikel/islami/jalan-pulang-sang-jiwa.html",
+    image: "/assets/img/artikel/islami/jalan-pulang-sang-jiwa.webp"
+  },
+  {
+    title: "Rumah Nabi, Rumah Kita",
+    category: "Islami",
     href: "/artikel/islami/rumah-nabi-rumah-kita.html",
     image: "/assets/img/artikel/islami/rumah-nabi-rumah-kita.webp"
   },
-  { 
-    title: "Api yang Kehilangan Namanya", 
-    category: "Islami", 
+  {
+    title: "Api yang Kehilangan Namanya",
+    category: "Islami",
     href: "/artikel/islami/api-yang-kehilangan-namanya.html",
     image: "/assets/img/artikel/islami/api-yang-kehilangan-namanya.webp"
   },
-  { 
-    title: "Islam dan Kedamaian", 
-    category: "Islami", 
+  {
+    title: "Islam dan Kedamaian",
+    category: "Islami",
     href: "/artikel/islami/islam-dan-kedamaian.html",
     image: "/assets/img/artikel/islami/islam-dan-kedamaian.webp"
   },
-  { 
-    title: "Pluralisme Agama", 
-    category: "Islami", 
+  {
+    title: "Pluralisme Agama",
+    category: "Islami",
     href: "/artikel/islami/pluralisme-agama.html",
     image: "/assets/img/artikel/islami/pluralisme-agama.webp"
   },
-  { 
-    title: "Spiritualitas Sosial di Tengah Krisis", 
-    category: "Islami", 
+  {
+    title: "Spiritualitas Sosial di Tengah Krisis",
+    category: "Islami",
     href: "/artikel/islami/spiritualitas-sosial-di-tengah-krisis.html",
     image: "/assets/img/artikel/islami/spiritualitas-sosial-di-tengah-krisis.webp"
   },
-  { 
-    title: "Sufisme: Spiritualitas Kontemporer", 
-    category: "Islami", 
+  {
+    title: "Sufisme: Spiritualitas Kontemporer",
+    category: "Islami",
     href: "/artikel/islami/sufisme-spiritualitas-kontemporer.html",
     image: "/assets/img/artikel/islami/sufisme-spiritualitas-kontemporer.webp"
   },
-  
+
   // Pemikiran
-  { 
-    title: "Ekologis Filosofi", 
-    category: "Pemikiran", 
+  {
+    title: "Ekologis Filosofi",
+    category: "Pemikiran",
     href: "/artikel/pemikiran/ekologis-filosofi.html",
     image: "/assets/img/artikel/pemikiran/ekologis-filosofi.webp"
   },
-  { 
-    title: "Etika Kontemporer", 
-    category: "Pemikiran", 
+  {
+    title: "Etika Kontemporer",
+    category: "Pemikiran",
     href: "/artikel/pemikiran/etika-kontemporer.html",
     image: "/assets/img/artikel/pemikiran/etika-kontemporer.webp"
   },
-  { 
-    title: "Feminisme dan Kesetaraan Gender", 
-    category: "Islami", 
+  {
+    title: "Feminisme dan Kesetaraan Gender",
+    category: "Islami",
     href: "/artikel/islami/feminisme-kesetaraan-gender.html",
     image: "/assets/img/artikel/islami/feminisme-kesetaraan-gender.webp"
   },
-  { 
-    title: "Filsafat Existensialisme", 
-    category: "Pemikiran", 
+  {
+    title: "Filsafat Existensialisme",
+    category: "Pemikiran",
     href: "/artikel/pemikiran/filsafat-existensialisme.html",
     image: "/assets/img/artikel/pemikiran/filsafat-existensialisme.webp"
   },
-  { 
-    title: "Identitas Diri", 
-    category: "Pemikiran", 
+  {
+    title: "Identitas Diri",
+    category: "Pemikiran",
     href: "/artikel/pemikiran/identitas-diri.html",
     image: "/assets/img/artikel/pemikiran/identitas-diri.webp"
   },
-  { 
-    title: "Kesadaran Kolektif", 
-    category: "Pemikiran", 
+  {
+    title: "Kesadaran Kolektif",
+    category: "Pemikiran",
     href: "/artikel/pemikiran/kesadaran-kolektif.html",
     image: "/assets/img/artikel/pemikiran/kesadaran-kolektif.webp"
   },
-  { 
-    title: "Transhumanisme dan Teknologi", 
-    category: "Pemikiran", 
+  {
+    title: "Transhumanisme dan Teknologi",
+    category: "Pemikiran",
     href: "/artikel/pemikiran/transhumanisme-teknologi.html",
     image: "/assets/img/artikel/pemikiran/transhumnisme-teknologi.webp"
   },
-  
+
   // Sosial
-  { 
-    title: "Aktivisme Pemuda", 
-    category: "Sosial", 
+  {
+    title: "Aktivisme Pemuda",
+    category: "Sosial",
     href: "/artikel/sosial/aktivisme-pemuda.html",
     image: "/assets/img/artikel/sosial/aktivisme-pemuda.webp"
   },
-  { 
-    title: "Ekonomi Sirkular", 
-    category: "Sosial", 
+  {
+    title: "Ekonomi Sirkular",
+    category: "Sosial",
     href: "/artikel/sosial/ekonomi-sirkular.html",
     image: "/assets/img/artikel/sosial/ekonomi-sirkular.webp"
   },
-  { 
-    title: "Kesenjangan Ekonomi", 
-    category: "Sosial", 
+  {
+    title: "Kesenjangan Ekonomi",
+    category: "Sosial",
     href: "/artikel/sosial/kesenjangan-ekonomi.html",
     image: "/assets/img/artikel/sosial/kesenjangan-ekonomi.webp"
   },
-  { 
-    title: "Kritik Sosial", 
-    category: "Sosial", 
+  {
+    title: "Kritik Sosial",
+    category: "Sosial",
     href: "/artikel/sosial/kritik-sosial.html",
     image: "/assets/img/artikel/sosial/kritik-sosial.webp"
   },
-  { 
-    title: "Migrasi dan Budaya", 
-    category: "Sosial", 
+  {
+    title: "Migrasi dan Budaya",
+    category: "Sosial",
     href: "/artikel/sosial/migrasi-budaya.html",
     image: "/assets/img/artikel/sosial/migrasi-budaya.webp"
   }

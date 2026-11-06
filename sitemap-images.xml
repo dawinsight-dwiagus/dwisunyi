@@ -2,6 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
+    <loc>https://dawinsight.my.id/artikel/islami/jalan-pulang-sang-jiwa.html</loc>
+    <image:image>
+      <image:loc>https://dawinsight.my.id/assets/img/artikel/islami/jalan-pulang-sang-jiwa.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://dawinsight.my.id/artikel/islami/rumah-nabi-rumah-kita.html</loc>
+    <image:image>
+      <image:loc>https://dawinsight.my.id/assets/img/artikel/islami/rumah-nabi-rumah-kita.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
     <loc>https://dawinsight.my.id/artikel/islami/api-yang-kehilangan-namanya.html</loc>
     <image:image>
       <image:loc>https://dawinsight.my.id/assets/img/artikel/islami/api-yang-kehilangan-namanya.webp</image:loc>
